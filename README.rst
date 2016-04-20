@@ -23,3 +23,10 @@ Shoop Guide is licensed under a Creative Commons Attribution-ShareAlike
 
 You should have received a copy of the license along with this work.  If
 not, see http://creativecommons.org/licenses/by-sa/4.0/.
+
+CLA
+---
+
+Contributor License Agreement is required for any contribution to this
+project.  Agreement is signed as a part of pull request process.  See
+the CLA.rst file distributed with Shoop Guide.
