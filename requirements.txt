@@ -5,6 +5,7 @@
 #    pip-compile --output-file requirements.txt requirements.in
 #
 
+-e git+git://github.com/shoopio/sphinx-shoop-theme.git#egg=sphinx-shoop-theme
 alabaster==0.7.7          # via sphinx
 babel==2.3.3              # via sphinx
 commonmark==0.5.4         # via recommonmark
@@ -18,4 +19,3 @@ recommonmark==0.4.0
 six==1.10.0               # via sphinx
 snowballstemmer==1.2.1    # via sphinx
 Sphinx==1.4.1
-git+https://github.com/shoopio/sphinx-shoop-theme.git#egg=sphinx-shoop-theme
