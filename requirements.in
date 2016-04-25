@@ -1,3 +1,3 @@
 Sphinx
 recommonmark
--e git+git://github.com/shoopio/sphinx-shoop-theme.git@v0.4.0#egg=sphinx-shoop-theme==0.4.0
+-e git+git://github.com/shoopio/sphinx-shoop-theme.git@v0.5.0#egg=sphinx-shoop-theme==0.5.0
