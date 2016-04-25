@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 2
 
    campaign-management
+   stock-management
 
 Indices and tables
 ==================
