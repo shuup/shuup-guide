@@ -76,7 +76,7 @@ How to manage stock on a product
 --------------------------------
 
 1. Decide which products stock you want to manage, find the product in
-**Products**
+   **Products**
 2. Open up the product and scroll down for **Stock management** tab
 
 .. tip::
