@@ -21,7 +21,7 @@ To manage campaigns in Shoop
 4. Choose which type of campaign to create, `Basket Campaigns`_, `Catalog
    Campaigns`_ or `Coupons`
 
-Campaing types in brief
+Campaign types in brief
 -----------------------
 
 Basket campaing
