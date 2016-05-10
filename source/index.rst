@@ -11,8 +11,18 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   products
+   using-themes
+   payment-settings
+   domains
+   tax-settings
+   orders
    campaign-management
+   shipping
    stock-management
+   customers
+   reports-and-analytics
+   apps
 
 Indices and tables
 ==================
