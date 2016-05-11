@@ -22,7 +22,7 @@ Contents:
    stock-management
    customers
    reports-and-analytics
-   apps
+   addons
 
 Indices and tables
 ==================

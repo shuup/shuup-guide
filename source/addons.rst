@@ -1,4 +1,4 @@
-Apps
-====
+Addons
+======
 
 Guide coming soon!
