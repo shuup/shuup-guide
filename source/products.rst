@@ -107,7 +107,7 @@ See Attributes_.
 Stock Management Tab
 ^^^^^^^^^^^^^^^^^^^^
 
-For stocked product, this should display any stock-related management tasks,
+For stocked product, this should display any stock-related management tasks
 depending on the product's supplier settings.
 
 .. todo:: Add complete reference for product fields
@@ -125,7 +125,7 @@ might require size, color, or other custom attributes.
 Attributes
 ----------
 
-Shop owners can define their own attributes for product types from the
+Shop owners can define their own attributes for `Product Types`_ from the
 Attributes Admin.
 
 1. Select the `Attributes` category from the Shoop Admin menu
@@ -146,14 +146,152 @@ Attributes Admin.
 Cross-Selling
 -------------
 
+Adding Cross-Sells
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Related products can be sold together on Shoop's storefront by
+using Shoop's cross-selling feature. These relationships can be
+managed from the Shoop Product admin.
+
+To add a relationship for a particular product, navigate to the product's
+page and select `Manage Cross-Selling` from the `Actions` menu.
+
+.. image:: products/action-menu.png
+
+Products can be selected by clicking the Browse button and clicking on
+the desired product from the product list.
+
+.. image:: products/cross-sells-add-relationship.png
+
+Once the product has been selected, the relationship's weight can be set.
+
+The relationship weight is used when calculating which products will
+be displayed together on the shop front. The higher the relationship
+weight the more likely the products are to be displayed together.
+
+Finally, you can select one of the following relationship types:
+
+Recommended
+   Products are recommended to be bought together.
+Related
+   Products are related.
+Computed
+   Primarily reserved for use by add-ons.
+Bought With
+   Primarily reserved for internal use. These relationships are
+   automatically calculated by automated Shoop tasks, however if
+   these tasks have not been configured by the server administrator,
+   they can be defined manually here.
+
+.. note::
+   Only five relationships can be added at once. However, more can
+   be added once these relationships have been savd. This can be
+   repeated as necessary.
+
+Displaying Cross-Sells
+~~~~~~~~~~~~~~~~~~~~~~
+
+Once defined in the Product admin, cross-sell relationships can be
+displayed on the store front using the Xtheme Cross-Sells plugin.
+
+.. image:: products/cross-sells-displayed.png
+
+Follow the following steps to display a relationship type on the
+store front:
+
+1.  Make sure you are logged in as an administrator and navigate to
+    the store front.
+2.  Navigate to any product page.
+3.  Click on the `Edit Page` button in the lower right-hand corner
+    of the page.
+4.  Select one of the Xtheme placeholder boxes.
+5.  Add a new row or new column for your plugin.
+6.  Select `Product Cross Sells` from the plugin dropdown menu.
+7.  Add a title if desired, select the relationship type, and set
+    the count as the number of products to be displayed at once.
+    You can also select whether or not to hide out-of-stock or
+    unorderable items.
+8.  Save the plugin.
+9.  Publish your changes.
+10. Click the `Exit Edit` button in the lower right-hand corner of
+    the page
+11. Your products should now appear in the placeholder on the product's
+    page.
+
+.. The page will now enter an editable draft mode and depending on the
+   theme template settings, dashed Xtheme placeholder boxes should become
+   visible on the page. These may be empty boxes by default.
+
+.. note::
+   Cross-sell relationships are only one-way and must be manually added
+   to any related product you would like to relate back to the original
+   product.
+
+.. note::
+   If there are no relationships of the selected type for a particular
+   product, the plugin will not be displayed.
+
 Package Products
 ----------------
+
+.. image:: products/package-products.png
 
 Variation Products
 ------------------
 
+Some products may be available to customers in a number of different
+variations, and customers should be able to choose from these
+different available options when adding products to their cart.
+
+Shoop provides two different types of product variations, `simple
+variations` and `variable variations`.
+
 Simple Variations
 ~~~~~~~~~~~~~~~~~
 
+Simple variations are general variations that are displayed on the
+product page as a simple drop-down menu where the user can select
+from any of the available variation product choices.
+
 Variable Variations
 ~~~~~~~~~~~~~~~~~~~
+
+Variable variations allow you to define child products based on a
+specific variable. For example, a product might have variables such as
+`size` or `colors`, with different options for each, and the customer
+should be able to select from a combination of these options.
+
+To add variable variations:
+
+1. Navigate to the parent product's edit page and select `Convert to
+   Variation Parent` from the `Actions` menu.
+2. Select `Variables` from the left-hand menu
+3. Click `Add new variable` to add a new variable form
+4. Enter the variable name
+5. Click `Add new value`
+6. Enter names for possible values
+7. Continue for other variables/values as needed
+8. When finished, click `Save` in the toolbar
+
+.. image:: products/variable-product-selector.png
+
+Once these variables have been added, "child" products can be linked
+for each combination of variables. For example, if there are 3 `size`
+values and 2 `color` values, there will be 6 child products, one for
+each `size`, `color` combination.
+
+.. tip::
+   Names for child products should follow a consistent naming scheme
+   indicating the variable value for each product.
+
+.. tip::
+   Variable variations can be converted to simple variations
+   by clicking `Convert to simple variation` on the Variation view
+   toolbar. However, all variable and value information will be lost.
+
+Managing Variations
+~~~~~~~~~~~~~~~~~~~
+Once a product has been converted to a simple or variable variation
+parent, it can be managed by selecting `Manage Variations` from the
+`Actions` menu for either the variation parent's admin page or the
+admin page for any of the child variation products.
