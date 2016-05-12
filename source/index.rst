@@ -14,12 +14,11 @@ Contents:
    using-the-shoop-admin
    products
    using-themes
-   payment-settings
+   payment-and-shipping
    domains
    tax-settings
    orders
    campaign-management
-   shipping
    stock-management
    customers
    reports-and-analytics
