@@ -184,3 +184,71 @@ Creating a Contact Group
    Once the contact group has been saved, two new tabs will be
    automatically added to the group's admin page--a `Members` tab
    and one or more `Sales Range` tabs.
+
+Editing Group Membership
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Navigate to the Contact Groups admin page by clicking `Contact
+   Groups` under the `Contacts` category from the Shoop Admin menu.
+
+2. Select the contact group whose membership you want to edit.
+
+3. Click the `Members` tab on the left-hand side of the screen.
+
+4. All contact group members will be listed.
+
+To add a remove a contact from the group:
+
+Adding a Contact
+****************
+
+To add a contact to a group:
+
+1. If there are no blank contact rows, click the `Add more` button to
+   add a blank contact row.
+
+2. Click the `Select` button on a blank contact to launch the Contact
+   selector popup. Select the contact you want to add.
+
+3. Repeat as necessary to add more contacts.
+
+4. Click `Save` to save the contact group.
+
+Removing a Contact
+******************
+
+To remove a contact from a group:
+
+1. Click the `Remove` checkbox next to any contacts you want to remove
+   from the group.
+
+2. Click `Save` to save the contact group membership.
+
+Creating a Sales Range
+^^^^^^^^^^^^^^^^^^^^^^
+
+1. Navigate to the Contact Groups admin page by clicking `Contact
+   Groups` under the `Contacts` category from the Shoop Admin menu.
+
+2. Select the contact group to which you want to add a sales range.
+
+3. Click the `(Shop Name) - Sales Ranges` tab on the left-hand side of
+   the screen, where `(Shop Name)` is the name of the shop to associate
+   with the sales range.
+
+4. Enter a minimum and maximum value for the group's sales range.
+
+   .. note::
+
+      Leave the maximum value blank to set no maximum for the group.
+
+      Set the minimum value to 0 to set no minimum for the group.
+
+5. Click `Save` to save the contact group sales range. Contact group
+   membership will automatically update based on customers' sales
+   totals.
+
+
+.. tip::
+   Try creating a contact group for customers within a sales range
+   value and target them for special discounts and promotions.
