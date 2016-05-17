@@ -11,6 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   using-the-shoop-admin
    products
    using-themes
    payment-settings
