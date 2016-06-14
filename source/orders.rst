@@ -4,10 +4,6 @@ Orders
 Creating an Order
 ~~~~~~~~~~~~~~~~~
 
-.. note::
-   Once created, the contents of orders cannot be changed. The order
-   must be canceled and a new order placed.
-
 Orders can be made in one of two ways--by a customer through the shop
 front or by a merchant through the Shoop Admin.
 
@@ -22,7 +18,15 @@ To create an order through the Shoop Admin:
 
    .. image:: orders/new-order.png
 
-3. Under the `Order contents` section, click `Add new line` to add
+3. Under the `Customer details` section, click `Select Existing
+   Customer` to launch the customer selection popup, or leave choice
+   as `New Customer` to create a new customer along with the order.
+
+   .. image:: orders/customer-details.png
+
+   Enter any required or missing address information.
+
+4. Under the `Order contents` section, click `Add new line` to add
    blank order lines to the order.
 
    These can either be of type `product`, `other`, or `text/comment`.
@@ -41,18 +45,47 @@ To create an order through the Shoop Admin:
    Text/Comment line
       A non-priced text line
 
-4. Under the `Customer details` section, click `Select Existing
-   Customer` to launch the customer selection popup, or leave choice
-   as `New Customer` to create a new customer along with the order.
+5. Select shipping and payment methods for the order from the Shipping
+   and Payment Methods dropdowns.
 
-   .. image:: orders/customer-details.png
+   .. image:: orders/shipping-and-payment-methods.png
 
-   Enter any required or missing address information.
+6. Click the `Proceed` button to create the order.
 
-5. Select shipping and payment methods for the orddre
+   .. image:: orders/proceed-button.png
 
 .. note::
    You must select shipping and payment methods for each order.
+
+.. note::
+   Method rules, taxes and possible extra discounts are calculated after proceeding.
+
+
+Editing an Order
+~~~~~~~~~~~~~~~~
+
+1. Navigate to the Orders admin page by clicking `Orders` from the
+   Shoop Admin menu.
+
+   .. image:: orders/orders-menu.png
+
+2. Select the order that you wish to edit.
+
+   .. image:: orders/select-order.png
+
+3. Click `Edit Order` in the order toolbar.
+
+   .. image:: orders/edit-order-button.png
+
+4. Make any desired changes to the order contents as done when
+   `Creating an Order`_.
+
+   .. image:: orders/edit-order-contents.png
+
+6. Click the `Proceed` button to save the order contents.
+
+   .. image:: orders/proceed-button.png
+
 
 Order Shipments
 ~~~~~~~~~~~~~~~
@@ -175,9 +208,9 @@ To create an order payment:
 Canceling an Order
 ~~~~~~~~~~~~~~~~~~
 
-.. note:: 
+.. note::
    Only unpaid and unshipped orders can be canceled.
-   
+
    If an order has been fully paid or fully shipped, the `Cancel Order`
    button will be disabled and you will not be able to cancel the
    order.
