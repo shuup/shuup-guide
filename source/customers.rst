@@ -10,16 +10,26 @@ Creating a User
 1. Navigate to the Users admin page by clicking `Users` under the
    `Contacts` category from the Shoop Admin menu.
 
-2. Enter a valid username and password for the user as well as any
+   .. image:: customers/users-menu.png
+
+2. Click the `New User` button on the Users admin toolbar.
+
+   .. image:: customers/new-user-button.png
+
+3. Enter a valid username and password for the user as well as any
    other user information, then click the `Save` button in the
    to create the user account.
+
+   .. image:: customers/new-user.png
 
 .. note::
    A user won't automatically receive notice that an account has been
    created for them.
 
-   It may be to do so by sending them a password-reset email and having
-   them create a new password. See `Sending Password-Reset Emails`_.
+   Instead, if you would like to notify a user, send a password-reset
+   email.
+
+   See `Sending Password-Reset Emails`_.
 
 Creating a User From a Saved Contact
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -27,13 +37,22 @@ Creating a User From a Saved Contact
 1. Navigate to the Contacts admin page by clicking `Contacts` under the
    `Contacts` category from the Shoop Admin menu.
 
-2. Select the contact for which you want to creaet a user account.
+   .. image:: customers/contacts-menu.png
+
+2. Select the contact for which you want to create a user account.
+
+   .. image:: customers/select-contact.png
 
 3. Click the `New User` button on the Contact admin toolbar.
 
+   .. image:: customers/new-user-from-contact.png
+
 4. Enter the new user's username and password information and click
-   save to create the user account, which will now be associated with
+   `Save` to create the user account, which will now be associated with
    the selected contact information.
+
+   .. image:: customers/new-user.png
+
 
    See `Creating a User` for more information.
 
@@ -44,17 +63,23 @@ Changing User Passwords
 ***********************
 
 1. Navigate to the Users admin page by clicking `Users` under the
-   `Contacts` category from the Shoop Admin menu.
+   `Contacts` category from the Shoop Admin menu
+
+   .. image:: customers/users-menu.png
 
 2. Select the user whose password you want to change.
+
+   .. image:: customers/select-user.png
 
 3. Click the `Actions` button on the user admin toolbar, and select
    `Change Password` from the dropdown menu.
 
+   .. image:: customers/change-password.png
+
 4. Enter the new password in the `Change User Password` form and
    click `Save` in the toolbar to save the new password.
 
-5. The password for the user account will now be updated.
+   .. image:: customers/change-password-form.png
 
 Sending Password-Reset Emails
 *****************************
@@ -62,13 +87,21 @@ Sending Password-Reset Emails
 1. Navigate to the Users admin page by clicking `Users` under the
    `Contacts` category from the Shoop Admin menu.
 
+   .. image:: customers/users-menu.png
+
 2. Select the user whose password you want to change.
+
+   .. image:: customers/select-user.png
 
 3. Click the `Actions` button on the user admin toolbar, and select
    `Send Password Reset Email` from the dropdown menu.
 
+   .. image:: customers/send-password-reset-email.png
+
 4. On the next screen, click `Send Reset Email` to send the user a
    password reset email.
+
+   .. image:: customers/send-reset-email.png
 
 Editing User Permissions
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -80,28 +113,50 @@ Editing User Permissions
 1. Navigate to the Users admin page by clicking `Users` under the
    `Contacts` category from the Shoop Admin menu.
 
+   .. image:: customers/users-menu.png
+
 2. Select the user whose permissions you want to edit.
+
+   .. image:: customers/select-user.png
 
 3. Click the `Actions` button on the user admin toolbar, and select
    `Edit Permissions` from the dropdown menu.
 
+   .. image:: customers/edit-permissions.png
+
 4. Check the permission levels that want to grant the user and click
    the `Save` button to save the user's permissions.
+
+   .. image:: customers/change-permissions.png
 
 Deactivating a User
 ^^^^^^^^^^^^^^^^^^^
 
 When users are deactivated, they remain in your system however they
-will no longer be able to log in to their account.
+will no longer be able to log in to their account and by default are
+not displayed when first opening the Users admin page.
+
+.. note::
+   If a user has an associated contact, deactiving the user's user
+   account will not deactive their contact, although it will prevent
+   them from logging in, essentially accomplishing the same thing.
+
+   See `Deactivating a Contact`_ for more information.
 
 To deactivate a user:
 
 1. Navigate to the Users admin page by clicking `Users` under the
    `Contacts` category from the Shoop Admin menu.
 
+   .. image:: customers/users-menu.png
+
 2. Select the user you want to deactivate.
 
+   .. image:: customers/select-user.png
+
 3. Click the `Deactivate User` button on the user admin toolbar.
+
+   .. image:: customers/deactivate-user-button.png
 
 4. The user will now be deactivated, and the `Deactivate User` button
    will be replaced with an `Activate User` button.
@@ -115,29 +170,101 @@ Shoop contacts store contact information such as address data, email, or
 phone numbers, and a contact may or may not be associated with a
 user account.
 
+Contacts may be one of the two following types:
+
+Person contact
+   Contact associated with a person.
+Company contact
+   Contact associated with a company.
+
+One or more person contacts may be *members* of a company contact.
+
+However, if a user has a contact associated with their account, it must
+always be a *person*-type contact, which may then be a member of one or
+more *company* contacts.
+
+If a user's person contact is linked to a company, the company's contact
+information will be used when placing orders.
+
 Creating a Contact
 ^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Contacts admin page by clicking `Contacts` under the
    `Contacts` category from the Shoop Admin menu.
 
+   .. image:: customers/contacts-menu.png
+
 2. Click the `New contact` button on the Contacts admin toolbar.
 
-3. Enter all basic details for the contact, including any required field
+   .. image:: customers/new-contact-button.png
 
-   If adding a contact of type *Person*, the `Name` field is required
-   but unused. Instead, you will want to enter a temporary value into
-   the `name` field and (optionally) provide the contact's first name
-   last name.
+3. Enter all basic details for the contact, including any required
+   fields.
 
-   If adding a contact of type *Company*, the `Name` field is required
-   and will be used as the company name. In this case, the first and
-   last names will not be used.
+   .. image:: customers/contact-basic-details.png
+
+   .. note::
+
+      If adding a contact of type *Person*, the `Name` field is required
+      but unused. Instead, you will want to enter a temporary value into
+      the `name` field and (optionally) provide the contact's first name
+      last name.
+
+      If adding a contact of type *Company*, the `Name` field is
+      required and will be used as the company name. In this case, the
+      first and last names will not be used.
 
 4. Click the `Addresses` tabs on the left-hand side of the screen to
-   enter billing and shipping addresss information for the contact.
+   enter billing and shipping address information for the contact.
+
+   .. image:: customers/contact-addresses.png
 
 5. Click the `Save` button to create the contact.
+
+Editing a Contact
+^^^^^^^^^^^^^^^^^
+
+1. Navigate to the Contacts admin page by clicking `Contacts` under the
+   `Contacts` category from the Shoop Admin menu.
+
+   .. image:: customers/contacts-menu.png
+
+2. Select the contact that you want to edit.
+
+   .. image:: customers/select-contact.png
+
+3. Click the `Edit` button in the contact admin toolbar.
+
+   .. image:: customers/edit-contact.png
+
+3. Edit the user's information and click `Save` to save the contact's
+   information.
+
+   See `Creating a Contact`_ for more information.
+
+Editing Company Membership
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Navigate to the Contacts admin page by clicking `Contacts` under the
+   `Contacts` category from the Shoop Admin menu.
+
+   .. image:: customers/contacts-menu.png
+
+2. Select the company contact whose membership you want to edit.
+
+   .. image:: customers/select-company.png
+
+3. Click the `Edit` button in the contact admin toolbar.
+
+   .. image:: customers/edit-contact.png
+
+4. Under the `Members` field input, type the name of the person contact
+   you wish to add to the company. When the name appears in the
+   dropdown, click to add to the input field.
+
+   .. image:: customers/company-membership.png
+
+5. Click save to update the company's memberships.
 
 Creating a Contact From a User Account
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -145,13 +272,21 @@ Creating a Contact From a User Account
 1. Navigate to the Users admin page by clicking `Users` under the
    `Contacts` category from the Shoop Admin menu.
 
+   .. image:: customers/users-menu.png
+
 2. Select the user whose permissions you want to edit.
+
+   .. image:: customers/select-user.png
 
 3. Click the `Actions` button on the user admin toolbar, and select
    `Create Contact` from the dropdown menu.
 
+   .. image:: customers/new-contact-from-user.png
+
 4. Fill in the user's contact information, including any required
    fields, then save to create a saved contact for the user.
+
+   .. image:: customers/contact-basic-details.png
 
    See `Creating a Contact`_ for more information.
 
@@ -159,6 +294,42 @@ Creating a Contact From a User Account
    contact's admin page.
 
    Click the user's username to go back to the user's admin page.
+
+Deactivating a Contact
+^^^^^^^^^^^^^^^^^^^^^^
+
+When contacts are deactivated, they remain in your system however they
+will no longer be able to log in to their account and by default are
+not displayed when first opening the Contacts admin page.
+
+.. note::
+   If a contact has an associated user, deactiving the user's contact
+   will not deactive their user account, although it will prevent them
+   from logging in, essentially accomplishing the same thing.
+
+   See `Deactivating a User`_ for more information.
+
+To deactivate a contact:
+
+1. Navigate to the Contacts admin page by clicking `Contacts` under the
+   `Contacts` category from the Shoop Admin menu.
+
+   .. image:: customers/contacts-menu.png
+
+2. Select the contact you want to deactivate.
+
+   .. image:: customers/select-contact.png
+
+3. Click the `Deactivate Contact` button on the contact admin toolbar.
+
+   .. image:: customers/deactivate-contact-button.png
+
+4. The contact will now be deactivated, and the `Deactivate Contact`
+   button will be replaced with an `Activate Contact` button.
+
+.. note::
+   The same steps can be followed to activate a deactivated
+   contact.
 
 Contact Groups
 ~~~~~~~~~~~~~~
@@ -175,9 +346,16 @@ Creating a Contact Group
 1. Navigate to the Contact Groups admin page by clicking `Contact
    Groups` under the `Contacts` category from the Shoop Admin menu.
 
+   .. image:: customers/contacts-menu.png
+
 2. Click the `Create new` button in the Contact Groups toolbar.
 
+
+   .. image:: customers/new-contact-group-button.png
+
 3. Select a name and price-display mode for your contact group.
+
+   .. image:: customers/contact-group-information.png
 
 4. Click the `Save` button to save your contact group
 
@@ -188,55 +366,93 @@ Creating a Contact Group
 Editing Group Membership
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Navigate to the Contact Groups admin page by clicking `Contact
-   Groups` under the `Contacts` category from the Shoop Admin menu.
-
-2. Select the contact group whose membership you want to edit.
-
-3. Click the `Members` tab on the left-hand side of the screen.
-
-4. All contact group members will be listed.
-
-To add a remove a contact from the group:
+View Contact Group Membership
+*****************************
 
 Adding a Contact
 ****************
 
-To add a contact to a group:
+1. Navigate to the Contact Groups admin page by clicking `Contact
+   Groups` under the `Contacts` category from the Shoop Admin menu.
 
-1. If there are no blank contact rows, click the `Add more` button to
+   .. image:: customers/contact-groups-menu.png
+
+2. Select the contact group whose membership you want to edit.
+
+   .. image:: customers/select-contact-group.png
+
+3. Click the `Add Members` tab on the left-hand side of the screen.
+
+   .. image:: customers/add-members-tab.png
+
+4. Click the `Select` button on an empty row to launch the Contact
+   selector popup.
+
+   .. image:: customers/add-members-select-button.png
+
+5. Select the contact you want to add from the Contact popup selector.
+
+   .. image:: customers/select-member.png
+
+5. If there are no blank contact rows, click the `Add more` button to
    add a blank contact row.
 
-2. Click the `Select` button on a blank contact to launch the Contact
-   selector popup. Select the contact you want to add.
+   .. image:: customers/add-more-button.png
 
-3. Repeat as necessary to add more contacts.
-
-4. Click `Save` to save the contact group.
+6. Repeat as necessary to add more contacts, then click `Save` to save
+   the contact group.
 
 Removing a Contact
 ******************
 
-To remove a contact from a group:
+.. note::
+   Contacts can only be removed from a contact group via the
+   admin page for each contact you wish to remove.
 
-1. Click the `Remove` checkbox next to any contacts you want to remove
-   from the group.
+1. Navigate to the Contacts admin page by clicking `Contacts` under the
+   `Contacts` category from the Shoop Admin menu.
 
-2. Click `Save` to save the contact group membership.
+   .. image:: customers/contacts-menu.png
+
+2. Select the contact that you want to remove from your group.
+
+   .. image:: customers/select-contact.png
+
+3. Click the `Edit` button in the contact admin toolbar.
+
+   .. image:: customers/edit-contact-group-from-contact.png
+
+4. Find the contact group whose membership you wish to edit in the
+   `Contact Groups` list, uncheck the corresponding box, and click
+   `Save` to update the contact's group membership.
 
 Creating a Sales Range
 ^^^^^^^^^^^^^^^^^^^^^^
 
+Contact group *sales ranges* can be used to automatically assign
+customer contacts to contact groups based on their sales totals.
+
+This can be useful if you want to target different sales levels for
+special campaigns, or offer special discounts or promotions.
+
 1. Navigate to the Contact Groups admin page by clicking `Contact
    Groups` under the `Contacts` category from the Shoop Admin menu.
 
+   .. image:: customers/contact-groups-menu.png
+
 2. Select the contact group to which you want to add a sales range.
+
+   .. image:: customers/select-contact-group.png
 
 3. Click the `(Shop Name) - Sales Ranges` tab on the left-hand side of
    the screen, where `(Shop Name)` is the name of the shop to associate
    with the sales range.
 
+   .. image:: customers/sales-ranges-tab.png
+
 4. Enter a minimum and maximum value for the group's sales range.
+
+   .. image:: customers/sales-ranges-values.png
 
    .. note::
 
