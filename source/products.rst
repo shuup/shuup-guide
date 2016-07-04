@@ -234,7 +234,30 @@ store front:
 Package Products
 ----------------
 
-.. image:: products/package-products.png
+Package products are used to package a number of related products to be
+sold as a single product package.
+
+These products are stored a single package *parent*, which can be
+linked to multiple package *children*.
+
+Stock for child products is automatically updated when the package is
+purchased. Pricing, discounts, etc, of the parent product can be
+managed like any other product.
+
+To convert a product to a package parent:
+
+1. Navigate to the parent product's edit page and select `Convert to
+   Package Parent` from the `Actions` dropdown menu.
+
+   .. image:: products/convert-to-package-parent-dropdown.png
+
+2. Click the `Browse` button to add child products to the package.
+   Enter the quantity of each product to include in the package.
+
+   .. image:: products/package-products-form.png
+
+3. Click `Save` to save the package's child product informatino.
+
 
 Variation Products
 ------------------
