@@ -1,5 +1,5 @@
-Customers
-=========
+Customers and Users
+===================
 
 Users
 ~~~~~
@@ -10,17 +10,17 @@ Creating a User
 1. Navigate to the Users admin page by clicking `Users` under the
    `Contacts` category from the Shoop Admin menu.
 
-   .. image:: customers/users-menu.png
+   .. image:: customers-and-users/users-menu.png
 
 2. Click the `New User` button on the Users admin toolbar.
 
-   .. image:: customers/new-user-button.png
+   .. image:: customers-and-users/new-user-button.png
 
 3. Enter a valid username and password for the user as well as any
    other user information, then click the `Save` button in the
    to create the user account.
 
-   .. image:: customers/new-user.png
+   .. image:: customers-and-users/new-user.png
 
 .. note::
    A user won't automatically receive notice that an account has been
@@ -37,21 +37,21 @@ Creating a User From a Saved Contact
 1. Navigate to the Contacts admin page by clicking `Contacts` under the
    `Contacts` category from the Shoop Admin menu.
 
-   .. image:: customers/contacts-menu.png
+   .. image:: customers-and-users/contacts-menu.png
 
 2. Select the contact for which you want to create a user account.
 
-   .. image:: customers/select-contact.png
+   .. image:: customers-and-users/select-contact.png
 
 3. Click the `New User` button on the Contact admin toolbar.
 
-   .. image:: customers/new-user-from-contact.png
+   .. image:: customers-and-users/new-user-from-contact.png
 
 4. Enter the new user's username and password information and click
    `Save` to create the user account, which will now be associated with
    the selected contact information.
 
-   .. image:: customers/new-user.png
+   .. image:: customers-and-users/new-user.png
 
 
    See `Creating a User` for more information.
@@ -65,21 +65,21 @@ Changing User Passwords
 1. Navigate to the Users admin page by clicking `Users` under the
    `Contacts` category from the Shoop Admin menu
 
-   .. image:: customers/users-menu.png
+   .. image:: customers-and-users/users-menu.png
 
 2. Select the user whose password you want to change.
 
-   .. image:: customers/select-user.png
+   .. image:: customers-and-users/select-user.png
 
 3. Click the `Actions` button on the user admin toolbar, and select
    `Change Password` from the dropdown menu.
 
-   .. image:: customers/change-password.png
+   .. image:: customers-and-users/change-password.png
 
 4. Enter the new password in the `Change User Password` form and
    click `Save` in the toolbar to save the new password.
 
-   .. image:: customers/change-password-form.png
+   .. image:: customers-and-users/change-password-form.png
 
 Sending Password-Reset Emails
 *****************************
@@ -87,21 +87,21 @@ Sending Password-Reset Emails
 1. Navigate to the Users admin page by clicking `Users` under the
    `Contacts` category from the Shoop Admin menu.
 
-   .. image:: customers/users-menu.png
+   .. image:: customers-and-users/users-menu.png
 
 2. Select the user whose password you want to change.
 
-   .. image:: customers/select-user.png
+   .. image:: customers-and-users/select-user.png
 
 3. Click the `Actions` button on the user admin toolbar, and select
    `Send Password Reset Email` from the dropdown menu.
 
-   .. image:: customers/send-password-reset-email.png
+   .. image:: customers-and-users/send-password-reset-email.png
 
 4. On the next screen, click `Send Reset Email` to send the user a
    password reset email.
 
-   .. image:: customers/send-reset-email.png
+   .. image:: customers-and-users/send-reset-email.png
 
 Editing User Permissions
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -113,21 +113,21 @@ Editing User Permissions
 1. Navigate to the Users admin page by clicking `Users` under the
    `Contacts` category from the Shoop Admin menu.
 
-   .. image:: customers/users-menu.png
+   .. image:: customers-and-users/users-menu.png
 
 2. Select the user whose permissions you want to edit.
 
-   .. image:: customers/select-user.png
+   .. image:: customers-and-users/select-user.png
 
 3. Click the `Actions` button on the user admin toolbar, and select
    `Edit Permissions` from the dropdown menu.
 
-   .. image:: customers/edit-permissions.png
+   .. image:: customers-and-users/edit-permissions.png
 
 4. Check the permission levels that want to grant the user and click
    the `Save` button to save the user's permissions.
 
-   .. image:: customers/change-permissions.png
+   .. image:: customers-and-users/change-permissions.png
 
 Deactivating a User
 ^^^^^^^^^^^^^^^^^^^
@@ -148,20 +148,56 @@ To deactivate a user:
 1. Navigate to the Users admin page by clicking `Users` under the
    `Contacts` category from the Shoop Admin menu.
 
-   .. image:: customers/users-menu.png
+   .. image:: customers-and-users/users-menu.png
 
 2. Select the user you want to deactivate.
 
-   .. image:: customers/select-user.png
+   .. image:: customers-and-users/select-user.png
 
 3. Click the `Deactivate User` button on the user admin toolbar.
 
-   .. image:: customers/deactivate-user-button.png
+   .. image:: customers-and-users/deactivate-user-button.png
 
 4. The user will now be deactivated, and the `Deactivate User` button
    will be replaced with an `Activate User` button.
 
 .. note:: The same steps can be followed to activate a deactivated user.
+
+Permission Groups
+~~~~~~~~~~~~~~~~~
+
+Permission groups can be used to restrict access to different sections
+of the Shoop admin for staff-level users.
+
+Creating a Permission Group
+---------------------------
+
+1. Navigate to the Permission Groups admin page by clicking `Permission
+   Groups` under the `Contacts` category from the Shoop Admin menu.
+
+   .. image:: customers-and-users/permission-groups-menu.png
+
+2. Click the `New group` button on the Permission Group admin toolbar.
+
+   .. image:: customers-and-users/new-group-button.png
+
+3. Enter a name for the group, select any modules (or admin sections)
+   the group should have access to, and select any users that should be
+   members of this group.
+
+   .. image:: customers-and-users/permission-groups-form.png
+
+   .. note::
+
+      Permissions are managed on a module-level basis. For example, if
+      a user has access to the Orders module, they will have access to
+      create orders, shipments, payments, refunds.
+
+      Additionally, if two admin modules require the same permission
+      rights, adding one module will automatically add the second once
+      the group settings have been saved.
+
+4. Click `Save` to save the permission group settings.
 
 Contacts
 ~~~~~~~~
@@ -192,16 +228,16 @@ Creating a Contact
 1. Navigate to the Contacts admin page by clicking `Contacts` under the
    `Contacts` category from the Shoop Admin menu.
 
-   .. image:: customers/contacts-menu.png
+   .. image:: customers-and-users/contacts-menu.png
 
 2. Click the `New contact` button on the Contacts admin toolbar.
 
-   .. image:: customers/new-contact-button.png
+   .. image:: customers-and-users/new-contact-button.png
 
 3. Enter all basic details for the contact, including any required
    fields.
 
-   .. image:: customers/contact-basic-details.png
+   .. image:: customers-and-users/contact-basic-details.png
 
    .. note::
 
@@ -217,7 +253,7 @@ Creating a Contact
 4. Click the `Addresses` tabs on the left-hand side of the screen to
    enter billing and shipping address information for the contact.
 
-   .. image:: customers/contact-addresses.png
+   .. image:: customers-and-users/contact-addresses.png
 
 5. Click the `Save` button to create the contact.
 
@@ -227,15 +263,15 @@ Editing a Contact
 1. Navigate to the Contacts admin page by clicking `Contacts` under the
    `Contacts` category from the Shoop Admin menu.
 
-   .. image:: customers/contacts-menu.png
+   .. image:: customers-and-users/contacts-menu.png
 
 2. Select the contact that you want to edit.
 
-   .. image:: customers/select-contact.png
+   .. image:: customers-and-users/select-contact.png
 
 3. Click the `Edit` button in the contact admin toolbar.
 
-   .. image:: customers/edit-contact.png
+   .. image:: customers-and-users/edit-contact.png
 
 3. Edit the user's information and click `Save` to save the contact's
    information.
@@ -248,21 +284,21 @@ Editing Company Membership
 1. Navigate to the Contacts admin page by clicking `Contacts` under the
    `Contacts` category from the Shoop Admin menu.
 
-   .. image:: customers/contacts-menu.png
+   .. image:: customers-and-users/contacts-menu.png
 
 2. Select the company contact whose membership you want to edit.
 
-   .. image:: customers/select-company.png
+   .. image:: customers-and-users/select-company.png
 
 3. Click the `Edit` button in the contact admin toolbar.
 
-   .. image:: customers/edit-contact.png
+   .. image:: customers-and-users/edit-contact.png
 
 4. Under the `Members` field input, type the name of the person contact
    you wish to add to the company. When the name appears in the
    dropdown, click to add to the input field.
 
-   .. image:: customers/company-membership.png
+   .. image:: customers-and-users/company-membership.png
 
 5. Click save to update the company's memberships.
 
@@ -272,21 +308,21 @@ Creating a Contact From a User Account
 1. Navigate to the Users admin page by clicking `Users` under the
    `Contacts` category from the Shoop Admin menu.
 
-   .. image:: customers/users-menu.png
+   .. image:: customers-and-users/users-menu.png
 
 2. Select the user whose permissions you want to edit.
 
-   .. image:: customers/select-user.png
+   .. image:: customers-and-users/select-user.png
 
 3. Click the `Actions` button on the user admin toolbar, and select
    `Create Contact` from the dropdown menu.
 
-   .. image:: customers/new-contact-from-user.png
+   .. image:: customers-and-users/new-contact-from-user.png
 
 4. Fill in the user's contact information, including any required
    fields, then save to create a saved contact for the user.
 
-   .. image:: customers/contact-basic-details.png
+   .. image:: customers-and-users/contact-basic-details.png
 
    See `Creating a Contact`_ for more information.
 
@@ -314,15 +350,15 @@ To deactivate a contact:
 1. Navigate to the Contacts admin page by clicking `Contacts` under the
    `Contacts` category from the Shoop Admin menu.
 
-   .. image:: customers/contacts-menu.png
+   .. image:: customers-and-users/contacts-menu.png
 
 2. Select the contact you want to deactivate.
 
-   .. image:: customers/select-contact.png
+   .. image:: customers-and-users/select-contact.png
 
 3. Click the `Deactivate Contact` button on the contact admin toolbar.
 
-   .. image:: customers/deactivate-contact-button.png
+   .. image:: customers-and-users/deactivate-contact-button.png
 
 4. The contact will now be deactivated, and the `Deactivate Contact`
    button will be replaced with an `Activate Contact` button.
@@ -346,16 +382,16 @@ Creating a Contact Group
 1. Navigate to the Contact Groups admin page by clicking `Contact
    Groups` under the `Contacts` category from the Shoop Admin menu.
 
-   .. image:: customers/contacts-menu.png
+   .. image:: customers-and-users/contacts-menu.png
 
 2. Click the `Create new` button in the Contact Groups toolbar.
 
 
-   .. image:: customers/new-contact-group-button.png
+   .. image:: customers-and-users/new-contact-group-button.png
 
 3. Select a name and price-display mode for your contact group.
 
-   .. image:: customers/contact-group-information.png
+   .. image:: customers-and-users/contact-group-information.png
 
 4. Click the `Save` button to save your contact group
 
@@ -375,29 +411,29 @@ Adding a Contact
 1. Navigate to the Contact Groups admin page by clicking `Contact
    Groups` under the `Contacts` category from the Shoop Admin menu.
 
-   .. image:: customers/contact-groups-menu.png
+   .. image:: customers-and-users/contact-groups-menu.png
 
 2. Select the contact group whose membership you want to edit.
 
-   .. image:: customers/select-contact-group.png
+   .. image:: customers-and-users/select-contact-group.png
 
 3. Click the `Add Members` tab on the left-hand side of the screen.
 
-   .. image:: customers/add-members-tab.png
+   .. image:: customers-and-users/add-members-tab.png
 
 4. Click the `Select` button on an empty row to launch the Contact
    selector popup.
 
-   .. image:: customers/add-members-select-button.png
+   .. image:: customers-and-users/add-members-select-button.png
 
 5. Select the contact you want to add from the Contact popup selector.
 
-   .. image:: customers/select-member.png
+   .. image:: customers-and-users/select-member.png
 
 5. If there are no blank contact rows, click the `Add more` button to
    add a blank contact row.
 
-   .. image:: customers/add-more-button.png
+   .. image:: customers-and-users/add-more-button.png
 
 6. Repeat as necessary to add more contacts, then click `Save` to save
    the contact group.
@@ -412,15 +448,15 @@ Removing a Contact
 1. Navigate to the Contacts admin page by clicking `Contacts` under the
    `Contacts` category from the Shoop Admin menu.
 
-   .. image:: customers/contacts-menu.png
+   .. image:: customers-and-users/contacts-menu.png
 
 2. Select the contact that you want to remove from your group.
 
-   .. image:: customers/select-contact.png
+   .. image:: customers-and-users/select-contact.png
 
 3. Click the `Edit` button in the contact admin toolbar.
 
-   .. image:: customers/edit-contact-group-from-contact.png
+   .. image:: customers-and-users/edit-contact-group-from-contact.png
 
 4. Find the contact group whose membership you wish to edit in the
    `Contact Groups` list, uncheck the corresponding box, and click
@@ -438,21 +474,21 @@ special campaigns, or offer special discounts or promotions.
 1. Navigate to the Contact Groups admin page by clicking `Contact
    Groups` under the `Contacts` category from the Shoop Admin menu.
 
-   .. image:: customers/contact-groups-menu.png
+   .. image:: customers-and-users/contact-groups-menu.png
 
 2. Select the contact group to which you want to add a sales range.
 
-   .. image:: customers/select-contact-group.png
+   .. image:: customers-and-users/select-contact-group.png
 
 3. Click the `(Shop Name) - Sales Ranges` tab on the left-hand side of
    the screen, where `(Shop Name)` is the name of the shop to associate
    with the sales range.
 
-   .. image:: customers/sales-ranges-tab.png
+   .. image:: customers-and-users/sales-ranges-tab.png
 
 4. Enter a minimum and maximum value for the group's sales range.
 
-   .. image:: customers/sales-ranges-values.png
+   .. image:: customers-and-users/sales-ranges-values.png
 
    .. note::
 

@@ -1,4 +1,0 @@
-Shipping
-========
-
-Guide coming soon!

@@ -18,9 +18,9 @@ Contents:
    domains
    tax-settings
    orders
-   campaign-management
+   campaigns
    stock-management
-   customers
+   customers-and-users
    reports-and-analytics
    addons
 
