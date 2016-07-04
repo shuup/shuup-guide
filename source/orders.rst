@@ -106,7 +106,7 @@ To create an order shipment:
 
 3. Click `Create Shipment` in the order toolbar.
 
-   .. image:: orders/create-shipment-button.png
+   .. image:: orders/create-shipment-dropdown.png
 
 4. For each product, select the quantity of that product to include
    in the shipment.
@@ -193,7 +193,7 @@ To create an order payment:
 
 3. Click `Create Payment` in the order toolbar.
 
-   .. image:: orders/create-payment-button.png
+   .. image:: orders/create-payment-dropdown.png
 
 4. Enter the amount of the payment in the `Payment amount` field or
    click `Get Remaining Total` to automatically fill will remaining
@@ -203,7 +203,93 @@ To create an order payment:
 
 6. Click the `Create Payment` button to create the payment.
 
+Order Refunds
+~~~~~~~~~~~~~
 
+.. note::
+
+   Orders can only be refunded once at least one payment has been
+   created for the order.
+
+   However, refund amounts are not restricted by existing payment
+   amounts, meaning it is possible to refund more than has been
+   actually payed.
+
+   If an order cannot be refunded, it will not be visible in the
+   `Actions` dropdown menu.
+
+.. note::
+
+   Once a refund has been created, it will appear as a refund line
+   in the `Order Contents` tab.
+
+Creating a Partial Refund
+*************************
+
+To create a partial refund for a particular amount or to refund
+particular order line amounts:
+
+1. Navigate to the Orders admin page by clicking `Orders` from the
+   Shoop Admin menu.
+
+   .. image:: orders/orders-menu.png
+
+2. Select the order for which you want to create a refund.
+
+   .. image:: orders/select-order.png
+
+3. Click `Create Refund` in the `Actions` dropdown in the admin
+   page's toolbar.
+
+   .. image:: orders/create-refund-dropdown.png
+
+4. To create a refund for a particular line, select the matching line
+   number from the `Line number` dropdown field.
+
+   .. image:: orders/refund-line-form.png
+
+   When refunding a product line, a field will appear to enter the
+   quantity, as well as whether to restock the refunded products.
+
+   .. note::
+      A separate refund line will be created if returning both a
+      quanity and an amount for a particular line.
+
+5. Click the `Add More Refunds` button to add additional refund forms.
+
+   .. image:: orders/add-more-refunds-button.png
+
+6. Click the `Create Refund` to add the entered refund amounts to the
+   order.
+
+Creating a Full Refund
+**********************
+
+To create a full refund for an order:
+
+1. Navigate to the Orders admin page by clicking `Orders` from the
+   Shoop Admin menu.
+
+   .. image:: orders/orders-menu.png
+
+2. Select the order for which you want to create a refund.
+
+   .. image:: orders/select-order.png
+
+3. Click `Create Refund` in the `Actions` dropdown in the admin
+   page's toolbar.
+
+   .. image:: orders/create-refund-dropdown.png
+
+
+4. Click the `Refund Entire Order` button in the admin page's toolbar.
+
+   .. image:: orders/refund-entire-order-button.png
+
+5. Review the order and refund amount information. To restock returned
+   products, make sure the `Restock products` checkbox is selected.
+
+6. Click the `Confirm Refund` to create a refund in the full amount.
 
 Canceling an Order
 ~~~~~~~~~~~~~~~~~~
