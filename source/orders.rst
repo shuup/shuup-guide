@@ -5,11 +5,11 @@ Creating an Order
 ~~~~~~~~~~~~~~~~~
 
 Orders can be made in one of two ways--by a customer through the shop
-front or by a merchant through the Shoop Admin.
+front or by a merchant through the Shuup Admin.
 
-To create an order through the Shoop Admin:
+To create an order through the Shuup Admin:
 
-1. Navigate to the Orders admin page by clicking `Orders` from the Shoop
+1. Navigate to the Orders admin page by clicking `Orders` from the Shuup
    Admin menu.
 
    .. image:: orders/orders-menu.png
@@ -65,7 +65,7 @@ Editing an Order
 ~~~~~~~~~~~~~~~~
 
 1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shoop Admin menu.
+   Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -96,7 +96,7 @@ Creating an Order Shipment
 To create an order shipment:
 
 1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shoop Admin menu.
+   Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -127,7 +127,7 @@ Printing a Delivery Slip
 To print a delivery slip for an order shipment:
 
 1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shoop Admin menu.
+   Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -161,7 +161,7 @@ Viewing Order Payments
 To view all payments for an order:
 
 1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shoop Admin menu.
+   Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -183,7 +183,7 @@ Creating an Order Payment
 To create an order payment:
 
 1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shoop Admin menu.
+   Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -230,7 +230,7 @@ To create a partial refund for a particular amount or to refund
 particular order line amounts:
 
 1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shoop Admin menu.
+   Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -268,7 +268,7 @@ Creating a Full Refund
 To create a full refund for an order:
 
 1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shoop Admin menu.
+   Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -304,7 +304,7 @@ Canceling an Order
 To cancel an order:
 
 1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shoop Admin menu.
+   Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -325,7 +325,7 @@ Once an order has been shipping, it can be marked as completed.
 To set an order as complete:
 
 1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shoop Admin menu.
+   Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -348,7 +348,7 @@ Printing an Order Confirmation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shoop Admin menu.
+   Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 

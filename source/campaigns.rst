@@ -1,18 +1,18 @@
 Campaigns
 =========
 
-Shoop Ecommerce platform comes built in with customized and easily
-extendable campaign management system. Shoop's modular campaign
+Shuup Ecommerce platform comes built in with customized and easily
+extendable campaign management system. Shuup's modular campaign
 management structure allows extending the feature to most innovative
 campaign models and even integrations.
 
 Campaign Types
 --------------
 
-Shoop has two different types of campaigns:
+Shuup has two different types of campaigns:
 
 Basket Campaign
-    A campaign that is offered or fulfilled in Shoop shopping
+    A campaign that is offered or fulfilled in Shuup shopping
     basket. For example, a customer may be given a 5% discount off
     their total order if their basket contains at least 10 products.
 
@@ -25,7 +25,7 @@ Creating a Campaign
 
 1. Navigate to either the `Basket Campaigns` or `Catalog Campaigns`
    admin page by clicking `Basket Campaigns` or `Catalog Campaigns`
-   under the `Campaigns` category from the Shoop Admin menu.
+   under the `Campaigns` category from the Shuup Admin menu.
 
 .. image:: campaigns/basket-campaigns-menu.png
 
@@ -182,7 +182,7 @@ Creating a Coupon Code
 ----------------------
 
 1. Navigate to the `Coupons` admin page by clicking `Coupons` under
-   the `Campaigns` category from the Shoop Admin menu.
+   the `Campaigns` category from the Shuup Admin menu.
 
 .. image:: campaigns/coupons-menu.png
 

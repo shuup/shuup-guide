@@ -8,10 +8,10 @@ Installing Addons
 
 .. note::
    Uploading addons is currently disabled in the Cloud version of
-   Shoop.
+   Shuup.
 
 Addons are installed through the Addons admin. To navigate to the
-Addons admin, select `Addons` from the Shoop Admin menu.
+Addons admin, select `Addons` from the Shuup Admin menu.
 
 .. image:: addons/addons-menu.png
 

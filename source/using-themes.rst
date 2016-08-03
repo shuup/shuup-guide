@@ -4,7 +4,7 @@ Using Themes
 Installing Themes
 ~~~~~~~~~~~~~~~~~
 
-Shoop Themes (or Xthemes) are downloaded and installed like other
+Shuup Themes (or Xthemes) are downloaded and installed like other
 addons.
 
 See :ref:`Addons` for general addon installation instructions.
@@ -17,7 +17,7 @@ until a theme for the shop has been activated.
 
 .. image:: using-themes/no-theme-selected.png
 
-To active a theme, go to the Shoop Admin and select the `Themes`
+To active a theme, go to the Shuup Admin and select the `Themes`
 admin from main menu.
 
 .. image:: using-themes/themes-menu.png
@@ -77,10 +77,10 @@ See `Editing a Page`_ for more information.
 Plugins
 ~~~~~~~
 
-Shoop Xtheme plugins provide an easy way for merchants to customize
+Shuup Xtheme plugins provide an easy way for merchants to customize
 their shop frontend.
 
-Shoop comes with a selection of default plugins, or plugins may be
+Shuup comes with a selection of default plugins, or plugins may be
 provided by themes or addons.
 
 Adding Plugins

@@ -10,7 +10,7 @@ Creating a New Tax
 To create a new tax:
 
 1. Navigate to the Taxes admin page by clicking `Taxes` under the
-   `Taxes` category from the Shoop Admin menu.
+   `Taxes` category from the Shuup Admin menu.
 
    .. image:: tax-settings/taxes-menu.png
 
@@ -32,7 +32,7 @@ Creating a New Tax Rule
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Taxes admin page by clicking `Tax Rules` under the
-   `Taxes` category from the Shoop Admin menu.
+   `Taxes` category from the Shuup Admin menu.
 
    .. image:: tax-settings/tax-rules-menu.png
 
@@ -53,7 +53,7 @@ Creating a New Customer Tax Group
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Taxes admin page by clicking `Customer Tax Groups`
-   under the `Taxes` category from the Shoop Admin menu.
+   under the `Taxes` category from the Shuup Admin menu.
 
    .. image:: tax-settings/customer-tax-groups-menu.png
 
@@ -75,7 +75,7 @@ Creating a New Tax Class
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Tax Classes admin page by clicking `Tax Classes`
-   under the `Taxes` category from the Shoop Admin menu.
+   under the `Taxes` category from the Shuup Admin menu.
 
    .. image:: tax-settings/tax-classes-menu.png
 
@@ -103,7 +103,7 @@ Shop Settings
    the tax display settings.
 
 1. Navigate to the Shops admin page by clicking `Shops` under the
-   `System` category from the Shoop Admin menu.
+   `System` category from the Shuup Admin menu.
 
    .. image:: tax-settings/shops-menu.png
 
@@ -122,7 +122,7 @@ Contact Group Settings
 ^^^^^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Contact Groups admin page by clicking `Contact
-   Groups` under the `Contacts` category from the Shoop Admin menu.
+   Groups` under the `Contacts` category from the Shuup Admin menu.
 
    .. image:: tax-settings/contact-groups-menu.png
 

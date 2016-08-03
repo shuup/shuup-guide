@@ -1,10 +1,10 @@
-Using the Shoop Admin
+Using the Shuup Admin
 =====================
 
 Navigating the Admin Menu
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Shoop Admin menu contains a list of categories. Each category can
+The Shuup Admin menu contains a list of categories. Each category can
 contain one or more links to admin pages for specific sections.
 
 If there is only one option for a category, clicking the category name
@@ -14,7 +14,7 @@ clicking the name will expand the category to show all options.
 Sorting and Filtering Tables
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Different pages in the Shoop Admin may contain a table of different
+Different pages in the Shuup Admin may contain a table of different
 items (such as customers, orders, or products). Rows within this table
 may be sortable or filterable, depending on the section.
 

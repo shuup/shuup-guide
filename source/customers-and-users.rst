@@ -8,7 +8,7 @@ Creating a User
 ^^^^^^^^^^^^^^^
 
 1. Navigate to the Users admin page by clicking `Users` under the
-   `Contacts` category from the Shoop Admin menu.
+   `Contacts` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/users-menu.png
 
@@ -35,7 +35,7 @@ Creating a User From a Saved Contact
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Contacts admin page by clicking `Contacts` under the
-   `Contacts` category from the Shoop Admin menu.
+   `Contacts` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/contacts-menu.png
 
@@ -63,7 +63,7 @@ Changing User Passwords
 ***********************
 
 1. Navigate to the Users admin page by clicking `Users` under the
-   `Contacts` category from the Shoop Admin menu
+   `Contacts` category from the Shuup Admin menu
 
    .. image:: customers-and-users/users-menu.png
 
@@ -85,7 +85,7 @@ Sending Password-Reset Emails
 *****************************
 
 1. Navigate to the Users admin page by clicking `Users` under the
-   `Contacts` category from the Shoop Admin menu.
+   `Contacts` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/users-menu.png
 
@@ -111,7 +111,7 @@ Editing User Permissions
    Use caution when granting users administrative permissions.
 
 1. Navigate to the Users admin page by clicking `Users` under the
-   `Contacts` category from the Shoop Admin menu.
+   `Contacts` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/users-menu.png
 
@@ -146,7 +146,7 @@ not displayed when first opening the Users admin page.
 To deactivate a user:
 
 1. Navigate to the Users admin page by clicking `Users` under the
-   `Contacts` category from the Shoop Admin menu.
+   `Contacts` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/users-menu.png
 
@@ -167,13 +167,13 @@ Permission Groups
 ~~~~~~~~~~~~~~~~~
 
 Permission groups can be used to restrict access to different sections
-of the Shoop admin for staff-level users.
+of the Shuup admin for staff-level users.
 
 Creating a Permission Group
 ---------------------------
 
 1. Navigate to the Permission Groups admin page by clicking `Permission
-   Groups` under the `Contacts` category from the Shoop Admin menu.
+   Groups` under the `Contacts` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/permission-groups-menu.png
 
@@ -202,7 +202,7 @@ Creating a Permission Group
 Contacts
 ~~~~~~~~
 
-Shoop contacts store contact information such as address data, email, or
+Shuup contacts store contact information such as address data, email, or
 phone numbers, and a contact may or may not be associated with a
 user account.
 
@@ -226,7 +226,7 @@ Creating a Contact
 ^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Contacts admin page by clicking `Contacts` under the
-   `Contacts` category from the Shoop Admin menu.
+   `Contacts` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/contacts-menu.png
 
@@ -261,7 +261,7 @@ Editing a Contact
 ^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Contacts admin page by clicking `Contacts` under the
-   `Contacts` category from the Shoop Admin menu.
+   `Contacts` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/contacts-menu.png
 
@@ -282,7 +282,7 @@ Editing Company Membership
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Contacts admin page by clicking `Contacts` under the
-   `Contacts` category from the Shoop Admin menu.
+   `Contacts` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/contacts-menu.png
 
@@ -306,7 +306,7 @@ Creating a Contact From a User Account
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Users admin page by clicking `Users` under the
-   `Contacts` category from the Shoop Admin menu.
+   `Contacts` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/users-menu.png
 
@@ -348,7 +348,7 @@ not displayed when first opening the Contacts admin page.
 To deactivate a contact:
 
 1. Navigate to the Contacts admin page by clicking `Contacts` under the
-   `Contacts` category from the Shoop Admin menu.
+   `Contacts` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/contacts-menu.png
 
@@ -370,7 +370,7 @@ To deactivate a contact:
 Contact Groups
 ~~~~~~~~~~~~~~
 
-In Shoop, contacts can be placed into different contact groups. These
+In Shuup, contacts can be placed into different contact groups. These
 groups can then be targetted for campaigns, discount pricing, or custom
 behaviors.
 
@@ -380,7 +380,7 @@ Creating a Contact Group
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Contact Groups admin page by clicking `Contact
-   Groups` under the `Contacts` category from the Shoop Admin menu.
+   Groups` under the `Contacts` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/contacts-menu.png
 
@@ -409,7 +409,7 @@ Adding a Contact
 ****************
 
 1. Navigate to the Contact Groups admin page by clicking `Contact
-   Groups` under the `Contacts` category from the Shoop Admin menu.
+   Groups` under the `Contacts` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/contact-groups-menu.png
 
@@ -446,7 +446,7 @@ Removing a Contact
    admin page for each contact you wish to remove.
 
 1. Navigate to the Contacts admin page by clicking `Contacts` under the
-   `Contacts` category from the Shoop Admin menu.
+   `Contacts` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/contacts-menu.png
 
@@ -472,7 +472,7 @@ This can be useful if you want to target different sales levels for
 special campaigns, or offer special discounts or promotions.
 
 1. Navigate to the Contact Groups admin page by clicking `Contact
-   Groups` under the `Contacts` category from the Shoop Admin menu.
+   Groups` under the `Contacts` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/contact-groups-menu.png
 
