@@ -4,10 +4,10 @@ Products
 Adding Products
 ---------------
 
-The Shoop Admin provides a simple interface for adding products to your
+The Shuup Admin provides a simple interface for adding products to your
 shop.
 
-To navigate to the Products section of the Shoop Admin, open the Admin
+To navigate to the Products section of the Shuup Admin, open the Admin
 menu and select the `Products` section under the `Products` category.
 
 .. image:: products/products-menu.png
@@ -26,7 +26,7 @@ information about your new product.
 
 .. image:: products/new-product-form.png
 
-Like other Shoop Admin forms, required fields are marked with a red
+Like other Shuup Admin forms, required fields are marked with a red
 asterisk and missing or invalid fields will be highlighted red on form
 submission.
 
@@ -128,12 +128,12 @@ Attributes
 Shop owners can define their own attributes for `Product Types`_ from the
 Attributes Admin.
 
-1. Select the `Attributes` category from the Shoop Admin menu
+1. Select the `Attributes` category from the Shuup Admin menu
 2. Click the `New attribute` button in the upper right-hand corner
 3. Enter a name and **unique** identifer for the attribute, and select
    the type, visibility mode, and searchability for the attribute
 4. Select the `Product Type` page (under the `Products` category) from
-   the Shoop Admin menu
+   the Shuup Admin menu
 5. Select the Product Type from the menu
 6. Under the `Attributes` tab, check the box next to the attribute
    name for your new attribute.
@@ -149,9 +149,9 @@ Cross-Selling
 Adding Cross-Sells
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Related products can be sold together on Shoop's storefront by
-using Shoop's cross-selling feature. These relationships can be
-managed from the Shoop Product admin.
+Related products can be sold together on Shuup's storefront by
+using Shuup's cross-selling feature. These relationships can be
+managed from the Shuup Product admin.
 
 To add a relationship for a particular product, navigate to the product's
 page and select `Manage Cross-Selling` from the `Actions` menu.
@@ -179,7 +179,7 @@ Computed
    Primarily reserved for use by add-ons.
 Bought With
    Primarily reserved for internal use. These relationships are
-   automatically calculated by automated Shoop tasks, however if
+   automatically calculated by automated Shuup tasks, however if
    these tasks have not been configured by the server administrator,
    they can be defined manually here.
 
@@ -266,7 +266,7 @@ Some products may be available to customers in a number of different
 variations, and customers should be able to choose from these
 different available options when adding products to their cart.
 
-Shoop provides two different types of product variations, `simple
+Shuup provides two different types of product variations, `simple
 variations` and `variable variations`.
 
 Simple Variations

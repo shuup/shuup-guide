@@ -2,15 +2,15 @@
 Stock Management
 ================
 
-Shoop comes with built in stock management system. The stock management isn't
+Shuup comes with built in stock management system. The stock management isn't
 activated in shop admin by default, but the activation can be done by merchant
 in a few easy steps. The Stock management setup process is guided process in
-the Shoop shop admin.
+the Shuup shop admin.
 
 Since all products aren't always stocked (like downloadable products) a good
 thing to keep in mind is, that to be able to manage product stock, a product
 must be first set as `Stocked`. Also to have a stock, it's required to have at
-least one `Supplier`. Stock can be easily managed in Shoop shop admin through
+least one `Supplier`. Stock can be easily managed in Shuup shop admin through
 any of the Stocked products, or in dedicated **Products / Stock management**
 view.
 
@@ -20,7 +20,7 @@ Activating Stock management
 
 **Set supplier stock managed:**
 
-1. Login into Shoop shop admin at `https://youshopurl.com/sa`
+1. Login into Shuup shop admin at `https://youshopurl.com/sa`
 2. Open up the menu bar on top left hand side
 3. Select **Products / Suppliers** and open up `Simple supplier`-module
    from Suppliers -table
@@ -28,13 +28,13 @@ Activating Stock management
 
 .. tip::
 
-    Shoop is prepared to use several supplier modules and each of them can
+    Shuup is prepared to use several supplier modules and each of them can
     have their own stock
 
 Set product as stocked
 ----------------------
 
-Next, let Shoop know, which of your products are actually stocked. Decide
+Next, let Shuup know, which of your products are actually stocked. Decide
 which products stock you want to manage. Find these product in
 **Products / Products**
 
@@ -50,7 +50,7 @@ stock managed at **Additional details**. Set the option `stock` as **Stocked**.
 Managing stock
 --------------
 
-Managing stock in Shoop is simply clean. Stock managing is available through
+Managing stock in Shuup is simply clean. Stock managing is available through
 each specific product at `Products` or at it's own `Stock management`-views
 in shop admin.
 

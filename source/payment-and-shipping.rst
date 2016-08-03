@@ -1,8 +1,8 @@
 Payment and Shipping
 ====================
 
-In Shoop, payment and shippings choices are associated with particular
-service providers. These may be provided by Shoop's build-in carriers
+In Shuup, payment and shippings choices are associated with particular
+service providers. These may be provided by Shuup's build-in carriers
 or payment process, or may be provided by payment or shipping-related
 addons.
 
@@ -13,7 +13,7 @@ Creating a Payment/Service Provider
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Service Providers admin page by clicking `Service
-   Providers` under the `Payment and Shipping` category from the Shoop
+   Providers` under the `Payment and Shipping` category from the Shuup
    Admin menu.
 
    .. image:: payment-and-shipping/service-providers-menu.png
@@ -53,7 +53,7 @@ Creating a Payment Method
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Payment Method admin by clicking `Payment Methods`
-   under the `Payment and Shipping` category from the Shoop Admin menu.
+   under the `Payment and Shipping` category from the Shuup Admin menu.
 
    .. image:: payment-and-shipping/payment-methods-menu.png
 
@@ -80,7 +80,7 @@ Creating a Shipping Method
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Shipping Method admin by clicking `Shipping Methods`
-   under the `Payment and Shipping` category from the Shoop Admin menu.
+   under the `Payment and Shipping` category from the Shuup Admin menu.
 
    .. image:: payment-and-shipping/shipping-methods-menu.png
 
@@ -116,7 +116,7 @@ when taken together, define.
 1. Whether a payment method is available for an order
 2. The amount to charge for that payment method, if available
 
-Shoop also ships with the following basic components (although
+Shuup also ships with the following basic components (although
 behavior components can also be added by :ref:`Addons`):
 
 Fixed cost
@@ -137,7 +137,7 @@ Adding a Behavior Component to a Method
 
 1. Navigate to the Shipping or Payment Methods admin by clicking
    `Shipping Methods` or `Payment Methods` under the `Payment and
-   Shipping` category from the Shoop Admin menu.
+   Shipping` category from the Shuup Admin menu.
 
    .. image:: payment-and-shipping/payment-methods-menu.png
 
