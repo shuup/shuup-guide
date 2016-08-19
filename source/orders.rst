@@ -9,8 +9,8 @@ front or by a merchant through the Shuup Admin.
 
 To create an order through the Shuup Admin:
 
-1. Navigate to the Orders admin page by clicking `Orders` from the Shuup
-   Admin menu.
+1. Navigate to the Orders admin page by clicking `Orders` under the
+   `Orders` category from the Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -45,12 +45,25 @@ To create an order through the Shuup Admin:
    Text/Comment line
       A non-priced text line
 
-5. Select shipping and payment methods for the order from the Shipping
+5. Optionally, the `Quick add product line` form can be used to quickly
+   add product lines to the order. For example, this can be used when
+   adding products using a barcode scanning device.
+
+   To quick add products:
+
+   a. Enter a product name, sku, or barcode number and select desired
+      product from the dropdown results.
+   b. Press the plus button to add the product line to order, or press
+      the trash button to clear the input and select a new product.
+
+      .. image:: orders/quick-add.png
+
+6. Select shipping and payment methods for the order from the Shipping
    and Payment Methods dropdowns.
 
    .. image:: orders/shipping-and-payment-methods.png
 
-6. Click the `Proceed` button to create the order.
+7. Click the `Proceed` button to create the order.
 
    .. image:: orders/proceed-button.png
 
@@ -64,8 +77,8 @@ To create an order through the Shuup Admin:
 Editing an Order
 ~~~~~~~~~~~~~~~~
 
-1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shuup Admin menu.
+1. Navigate to the Orders admin page by clicking `Orders` under the
+   `Orders` category from the Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -95,8 +108,8 @@ Creating an Order Shipment
 
 To create an order shipment:
 
-1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shuup Admin menu.
+1. Navigate to the Orders admin page by clicking `Orders` under the
+   `Orders` category from the Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -126,8 +139,8 @@ Printing a Delivery Slip
 
 To print a delivery slip for an order shipment:
 
-1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shuup Admin menu.
+1. Navigate to the Orders admin page by clicking `Orders` under the
+   `Orders` category from the Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -160,8 +173,8 @@ Viewing Order Payments
 
 To view all payments for an order:
 
-1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shuup Admin menu.
+1. Navigate to the Orders admin page by clicking `Orders` under the
+   `Orders` category from the Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -182,8 +195,8 @@ Creating an Order Payment
 
 To create an order payment:
 
-1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shuup Admin menu.
+1. Navigate to the Orders admin page by clicking `Orders` under the
+   `Orders` category from the Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -229,8 +242,8 @@ Creating a Partial Refund
 To create a partial refund for a particular amount or to refund
 particular order line amounts:
 
-1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shuup Admin menu.
+1. Navigate to the Orders admin page by clicking `Orders` under the
+   `Orders` category from the Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -267,8 +280,8 @@ Creating a Full Refund
 
 To create a full refund for an order:
 
-1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shuup Admin menu.
+1. Navigate to the Orders admin page by clicking `Orders` under the
+   `Orders` category from the Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -303,8 +316,8 @@ Canceling an Order
 
 To cancel an order:
 
-1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shuup Admin menu.
+1. Navigate to the Orders admin page by clicking `Orders` under the
+   `Orders` category from the Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -324,8 +337,8 @@ Once an order has been shipping, it can be marked as completed.
 
 To set an order as complete:
 
-1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shuup Admin menu.
+1. Navigate to the Orders admin page by clicking `Orders` under the
+   `Orders` category from the Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 
@@ -347,8 +360,8 @@ The order will now be marked as `completed`.
 Printing an Order Confirmation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Navigate to the Orders admin page by clicking `Orders` from the
-   Shuup Admin menu.
+1. Navigate to the Orders admin page by clicking `Orders` under the 
+   `Orders` category from the Shuup Admin menu.
 
    .. image:: orders/orders-menu.png
 

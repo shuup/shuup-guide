@@ -112,6 +112,11 @@ depending on the product's supplier settings.
 
 .. todo:: Add complete reference for product fields
 
+Orders Management Tab
+^^^^^^^^^^^^^^^^^^^^^
+
+Show recent orders containing the product.
+
 Product Types
 -------------
 

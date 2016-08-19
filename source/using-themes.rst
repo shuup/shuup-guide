@@ -17,8 +17,8 @@ until a theme for the shop has been activated.
 
 .. image:: using-themes/no-theme-selected.png
 
-To active a theme, go to the Shuup Admin and select the `Themes`
-admin from main menu.
+To active a theme, go to the Shuup Admin and click `Themes` under the
+`Storefront` category from the Shuup Admin menu.
 
 .. image:: using-themes/themes-menu.png
 
