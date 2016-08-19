@@ -12,22 +12,21 @@ menu and select the `Products` section under the `Products` category.
 
 .. image:: products/products-menu.png
 
-On the `Products` page, you will a list of all of the products currently
-in your shop. In the upper right-hand corner, there is a button labelled
-`New product`.
+On the `Products` page, you will see a list of all of the products
+currently in your shop. In the upper right-hand corner there is a
+button labelled `New product` for creating new products. Clicking
+this will take you to the new product form, where you can enter
+information about your new product.
 
 .. image:: products/new-product-button.png
 
 New Product Form
 ~~~~~~~~~~~~~~~~
 
-Clicking this will take you to the `new product form`, where you can enter
-information about your new product.
-
 .. image:: products/new-product-form.png
 
 Like other Shuup Admin forms, required fields are marked with a red
-asterisk and missing or invalid fields will be highlighted red on form
+asterisk and missing or invalid fields will be highlighted red upon form
 submission.
 
 The left side of the form contains a number of sections of the form
