@@ -8,7 +8,7 @@ Creating a User
 ^^^^^^^^^^^^^^^
 
 1. Navigate to the Users admin page by clicking `Users` under the
-   `Contacts` category from the Shuup Admin menu.
+   `Settings` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/users-menu.png
 
@@ -63,7 +63,7 @@ Changing User Passwords
 ***********************
 
 1. Navigate to the Users admin page by clicking `Users` under the
-   `Contacts` category from the Shuup Admin menu
+   `Settings` category from the Shuup Admin menu
 
    .. image:: customers-and-users/users-menu.png
 
@@ -85,7 +85,7 @@ Sending Password-Reset Emails
 *****************************
 
 1. Navigate to the Users admin page by clicking `Users` under the
-   `Contacts` category from the Shuup Admin menu.
+   `Settings` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/users-menu.png
 
@@ -111,7 +111,7 @@ Editing User Permissions
    Use caution when granting users administrative permissions.
 
 1. Navigate to the Users admin page by clicking `Users` under the
-   `Contacts` category from the Shuup Admin menu.
+   `Settings` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/users-menu.png
 
@@ -146,7 +146,7 @@ not displayed when first opening the Users admin page.
 To deactivate a user:
 
 1. Navigate to the Users admin page by clicking `Users` under the
-   `Contacts` category from the Shuup Admin menu.
+   `Settings` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/users-menu.png
 
@@ -162,6 +162,35 @@ To deactivate a user:
    will be replaced with an `Activate User` button.
 
 .. note:: The same steps can be followed to activate a deactivated user.
+
+Logging in as a User
+^^^^^^^^^^^^^^^^^^^^
+
+When troubleshooting a problem for a customer, it may be useful to log
+in under the user's account.
+
+To log in as a user:
+
+1. When logged in as a superuser, navigate to the Users admin page by
+   clicking `Users` under the `Settings` category from the Shuup Admin
+   menu.
+
+   .. image:: customers-and-users/users-menu.png
+
+2. Select the user you want to log in as.
+
+   .. image:: customers-and-users/select-user.png
+
+3. Click the `Login as User` button on the user admin toolbar.
+
+   .. image:: customers-and-users/login-as-user-button.png
+
+4. You will now be logged in as the user.
+
+.. note::
+
+   If a superuser places an order as another user, the superuser will be
+   listed as the creator on the orders details page.
 
 Permission Groups
 ~~~~~~~~~~~~~~~~~
@@ -306,7 +335,7 @@ Creating a Contact From a User Account
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Users admin page by clicking `Users` under the
-   `Contacts` category from the Shuup Admin menu.
+   `Settings` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/users-menu.png
 
