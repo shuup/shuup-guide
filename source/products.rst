@@ -33,64 +33,54 @@ The left side of the form contains a number of sections of the form
 (shown as tabs), and selecting a tab will present the different fields
 and options for that section.
 
-Base Product Tabs
+Basic Information Tab
+^^^^^^^^^^^^^^^^^^
+Basic Information
+    The top section of the form contains most of the basic product information
+    and settings including product name, description, type as welle as a 
+    product image uploader and selector.
+
+Current Shop
+    The name of this section is the relevant shop's name (initially
+    *Default*). It has the default price, font-end visibility and category. 
+
+Additional Details Tab
 ^^^^^^^^^^^^^^^^^^
 
-The top section of the form contains most of the basic product information
-and settings.
+Miscellaneous information regarding the product, such as the product's
+shipping mode, tax class, barcode information, the product physical 
+dimensions and unit information as wells as the slug and relevant keywords.
 
-General Information
-    General information about the product, including product type, name,
-    and product description.
-Additional Details
-    Miscellaneous information regarding the product, such as the product's
-    stock and shipping mode, barcode information, and relevant keywords.
-Accounting
-    Bookkeeping-related information.
-Physical Properties
-    Physical dimensions and unit information for the product.
 Manufacturer
-    Selection choice for the product's manufacturer.
-
-Shop-Specific Tabs
 ^^^^^^^^^^^^^^^^^^
 
-Following the base product section are the following shop-specific tabs.
-The names of these are preceeded by the relevant shop's name (initially
-*Default*):
+Selection choice for the product's manufacturer.
 
-Visibility
-    Front-end visibility settings for a specific shop.
-Purchasing
-    Pricing, supplier, and multiple-purchase settings.
-Shipping & Payment
-    Shipping and payment service-related settings (used to limit customer
-    shipping and payment choices on checkout).
-
-Media Tabs
+Shop-Specific Additional Tab
 ^^^^^^^^^^^^^^^^^^
 
-These sections are for managing the image and digital media content related
-to the product.
+The names of this tab is preceeded by the relevant shop's name (initially
+*Default*). It contains strictly shop related information such as front-end 
+visibility settings for a specific shop, pricing, suppliers, 
+multiple-purchase settings.
 
-Product Media
-    Product-related file uploader and selector.
-Product Images
-    Product image uploader and selector.
-
-.. tip::
-   Advanced Product Media settings can be configured to deliver digital
-   and downloadable content.
-
-Customer Group Pricing Tab
+Contact Group Pricing Tab
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Pricing settings based on customer groups. If a customer belongs to
+Pricing settings based on contact groups. If a contact belongs to
 multiple groups, they will be presented the lowest price of the groups
-to which they belong.
+to which they belong. These groups are defined in Contacts Settings – 
+Contact Groups
 
 .. note::
-   Customer Group pricing is currently not configurable for specific shops.
+   Contact Group pricing is currently not configurable for specific shops.
+
+Contact Group Discount
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Individual discount amounts for different contact groups. The discount 
+amount may be visible on storefront. These groups are defined in Contacts 
+Settings – Contact Groups
 
 Saved Product Form
 ~~~~~~~~~~~~~~~~~~
@@ -103,6 +93,16 @@ Attributes Tab
 
 See Attributes_.
 
+Product Files
+^^^^^^^^^^^^^^
+
+Product-related file uploader and selector.
+
+Product Images
+^^^^^^^^^^^^^^
+
+Product image uploader and selector.
+
 Stock Management Tab
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -111,7 +111,12 @@ depending on the product's supplier settings.
 
 .. todo:: Add complete reference for product fields
 
-Orders Management Tab
+Active Campaigns
+^^^^^^^^^^^^^^^^^^^^
+
+This section shows all the active campaigns the product is in.
+
+Orders Tab
 ^^^^^^^^^^^^^^^^^^^^^
 
 Show recent orders containing the product.
