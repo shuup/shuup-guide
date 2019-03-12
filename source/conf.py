@@ -47,8 +47,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Shuup Guide'
-copyright = '2019, Shoop Ltd'
-author = 'Shoop Ltd'
+copyright = '2019, Anders Innovations Inc, DBA Shuup'
+author = 'DBA Shuup'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
