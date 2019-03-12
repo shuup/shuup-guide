@@ -7,7 +7,7 @@ Installing Themes
 Shuup Themes (or Xthemes) are downloaded and installed like other
 addons.
 
-See :ref:`Addons` for general addon installation instructions.
+.. See :ref:`Addons` for general addon installation instructions.
 
 Activating Themes
 ~~~~~~~~~~~~~~~~~
@@ -18,7 +18,7 @@ until a theme for the shop has been activated.
 .. image:: using-themes/no-theme-selected.png
 
 To active a theme, go to the Shuup Admin and click `Themes` under the
-`Storefront` category from the Shuup Admin menu.
+`Content` category from the Shuup Admin menu.
 
 .. image:: using-themes/themes-menu.png
 
@@ -36,10 +36,10 @@ To edit a page:
 
 1. Log in as an administrative user.
 2. Navigate to the page on the shop front you want to edit.
-3. Click the `Edit Page` button in the lower right hand core to enter
+3. Click the `Edit Page` button in the upper right hand core to enter
    edit mode.
 
-   .. image:: using-themes/edit-page-button.png
+..   .. image:: using-themes/edit-page-button.png
 
 4. Once in edit mode, placeholders will appear as blocks surrounded by
    dotted outlines.
@@ -49,7 +49,7 @@ To edit a page:
 5. When finished editing, click the `Exit Edit` button to return to
    normal mode.
 
-   .. image:: using-themes/exit-edit-button.png
+..   .. image:: using-themes/exit-edit-button.png
 
 Placeholders
 ~~~~~~~~~~~~
@@ -94,8 +94,6 @@ To add a plugin:
 2. Click `Add new row` button to add a new row of cells, or to add a
    column to an existing row click the new cell button add a column
    cell.
-
-   .. image:: using-themes/add-new-row-button.png
 
    .. image:: using-themes/add-new-row-button.png
 
