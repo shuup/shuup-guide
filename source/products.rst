@@ -121,37 +121,6 @@ Orders Tab
 
 Show recent orders containing the product.
 
-Product Types
--------------
-
-Product Types define classes products and are used to associate different
-sets of attributes_ to a particular product, depending on its product type.
-
-For example, a product of type *Book* might require specific information
-such as author, ISBN, publisher, etc, while a product of type *Clothing*
-might require size, color, or other custom attributes.
-
-Attributes
-----------
-
-Shop owners can define their own attributes for `Product Types`_ from the
-Attributes Admin.
-
-1. Select the `Attributes` category from the Shuup Admin menu
-2. Click the `New attribute` button in the upper right-hand corner
-3. Enter a name and **unique** identifer for the attribute, and select
-   the type, visibility mode, and searchability for the attribute
-4. Select the `Product Type` page (under the `Products` category) from
-   the Shuup Admin menu
-5. Select the Product Type from the menu
-6. Under the `Attributes` tab, check the box next to the attribute
-   name for your new attribute.
-
-.. tip::
-   By default, new attributes are displayed on the product page, but there
-   are multiple visibility options that can be selected form the Attributes
-   edit page.
-
 Cross-Selling
 -------------
 
@@ -167,7 +136,7 @@ page and select `Manage Cross-Selling` from the `Actions` menu.
 
 .. image:: products/action-menu.png
 
-Products can be selected by clicking the Browse button and clicking on
+Products can be selected by clicking the Select Product button and clicking on
 the desired product from the product list.
 
 .. image:: products/cross-sells-add-relationship.png
@@ -194,14 +163,14 @@ Bought With
 
 .. note::
    Only five relationships can be added at once. However, more can
-   be added once these relationships have been savd. This can be
+   be added once these relationships have been saved. This can be
    repeated as necessary.
 
 Displaying Cross-Sells
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Once defined in the Product admin, cross-sell relationships can be
-displayed on the store front using the Xtheme Cross-Sells plugin.
+displayed on the store front using a plugin.
 
 .. image:: products/cross-sells-displayed.png
 
@@ -211,9 +180,9 @@ store front:
 1.  Make sure you are logged in as an administrator and navigate to
     the store front.
 2.  Navigate to any product page.
-3.  Click on the `Edit Page` button in the lower right-hand corner
+3.  Click on the `Edit Page` button in the upper right-hand corner
     of the page.
-4.  Select one of the Xtheme placeholder boxes.
+4.  Select one of the placeholder boxes.
 5.  Add a new row or new column for your plugin.
 6.  Select `Product Cross Sells` from the plugin dropdown menu.
 7.  Add a title if desired, select the relationship type, and set
@@ -222,7 +191,7 @@ store front:
     unorderable items.
 8.  Save the plugin.
 9.  Publish your changes.
-10. Click the `Exit Edit` button in the lower right-hand corner of
+10. Click the `Exit Edit` button in the upper right-hand corner of
     the page
 11. Your products should now appear in the placeholder on the product's
     page.
