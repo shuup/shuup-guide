@@ -9,7 +9,7 @@ at GitHub <https://github.com/shuup/shuup>`_.
 Copyright
 ---------
 
-Copyright (C) 2019 by Anders Innovations Inc, DBA Shuup. <support@shuup.com>
+Copyright (C) 2019 by Anders Innovations Inc, DBA Shuup. support@shuup.com
 
 Shuup is International Registered Trademark & Property of Anders Innovations 
 Inc, DBA Shuup, Business Address: 1500 West Georgia St Suite 1300, Vancouver, 
