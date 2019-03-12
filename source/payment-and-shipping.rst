@@ -13,9 +13,9 @@ Creating a Payment/Service Provider
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Service Providers admin page by clicking `Service
-   Providers` under the `Settings` category from the Shuup Admin menu.
+   Providers` under the `Shops` category from the Shuup Admin menu.
 
-   .. image:: payment-and-shipping/service-providers-menu.png
+..   .. image:: payment-and-shipping/service-providers-menu.png
 
 2. Click the `New service provider` button in the Service Providers
    admin toolbar
@@ -41,7 +41,7 @@ Creating a Payment/Service Provider
    to create a payment or shipping method associated with this payment
    provider.
 
-   See `Creating a Payment Method`_ and `Creating a Shipping Method`.
+   See `Creating a Payment Method`_ and `Creating a Shipping Method`_.
 
    .. image:: payment-and-shipping/create-payment-method.png
 
@@ -52,9 +52,9 @@ Creating a Payment Method
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Payment Method admin by clicking `Payment Methods`
-   under the `Settings` category from the Shuup Admin menu.
+   under the `Shops` category from the Shuup Admin menu.
 
-   .. image:: payment-and-shipping/payment-methods-menu.png
+..   .. image:: payment-and-shipping/payment-methods-menu.png
 
 2. Click the `New payment method` button in the Payment Methods admin
    toolbar.
@@ -68,7 +68,7 @@ Creating a Payment Method
 
 4. Enter the remaining information for the method.
 
-   .. image:: payment-and-shipping/new-payment-method.png
+..   .. image:: payment-and-shipping/new-payment-method.png
 
 5. Click `Save` to create the payment method.
 
@@ -79,9 +79,9 @@ Creating a Shipping Method
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Shipping Method admin by clicking `Shipping Methods`
-   under the `Settings` category from the Shuup Admin menu.
+   under the `Shops` category from the Shuup Admin menu.
 
-   .. image:: payment-and-shipping/shipping-methods-menu.png
+..   .. image:: payment-and-shipping/shipping-methods-menu.png
 
 2. Click the `New shipping method` button in the Shipping Methods admin
    toolbar.
@@ -116,7 +116,7 @@ when taken together, define.
 2. The amount to charge for that payment method, if available
 
 Shuup also ships with the following basic components (although
-behavior components can also be added by :ref:`Addons`):
+behavior components can also be added by `Addons`):
 
 Fixed cost
   Add a fixed cost.
@@ -135,10 +135,10 @@ Adding a Behavior Component to a Method
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Shipping or Payment Methods admin by clicking
-   `Shipping Methods` or `Payment Methods` under the `Settings`
+   `Shipping Methods` or `Payment Methods` under the `Shops`
    category from the Shuup Admin menu.
 
-   .. image:: payment-and-shipping/payment-methods-menu.png
+..   .. image:: payment-and-shipping/payment-methods-menu.png
 
 2. Select the shipping or payment method to which you want to add
    behavior components.
