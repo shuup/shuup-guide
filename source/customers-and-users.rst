@@ -232,32 +232,17 @@ Creating a Contact
 
    .. image:: customers-and-users/contacts-menu.png
 
-2. Click the `New contact` button on the Contacts admin toolbar.
+2. Click the `New Person` or the `New Company` button on the Contacts 
+   admin toolbar.
 
-   .. image:: customers-and-users/new-contact-button.png
+..   .. image:: customers-and-users/new-contact-button.png
 
 3. Enter all basic details for the contact, including any required
    fields.
 
    .. image:: customers-and-users/contact-basic-details.png
 
-   .. note::
-
-      If adding a contact of type *Person*, the `Name` field is required
-      but unused. Instead, you will want to enter a temporary value into
-      the `name` field and (optionally) provide the contact's first name
-      last name.
-
-      If adding a contact of type *Company*, the `Name` field is
-      required and will be used as the company name. In this case, the
-      first and last names will not be used.
-
-4. Click the `Addresses` tabs on the left-hand side of the screen to
-   enter billing and shipping address information for the contact.
-
-   .. image:: customers-and-users/contact-addresses.png
-
-5. Click the `Save` button to create the contact.
+4. Click the `Save` button to create the contact.
 
 Editing a Contact
 ^^^^^^^^^^^^^^^^^
@@ -275,8 +260,14 @@ Editing a Contact
 
    .. image:: customers-and-users/edit-contact.png
 
-3. Edit the user's information and click `Save` to save the contact's
-   information.
+4. Edit the user's information
+
+5. Click the `Addresses` tabs on the left-hand side of the screen to
+   enter billing and shipping address information for the contact.
+
+   .. image:: customers-and-users/contact-addresses.png
+
+6. Click `Save` to save the contact's information.
 
    See `Creating a Contact`_ for more information.
 
@@ -324,7 +315,7 @@ Creating a Contact From a User Account
 4. Fill in the user's contact information, including any required
    fields, then save to create a saved contact for the user.
 
-   .. image:: customers-and-users/contact-basic-details.png
+..   .. image:: customers-and-users/contact-basic-details.png
 
    See `Creating a Contact`_ for more information.
 
@@ -391,9 +382,9 @@ Creating a Contact Group
 
    .. image:: customers-and-users/new-contact-group-button.png
 
-3. Select a name and price-display mode for your contact group.
+3. Select a name for your contact group.
 
-   .. image:: customers-and-users/contact-group-information.png
+..   .. image:: customers-and-users/contact-group-information.png
 
 4. Click the `Save` button to save your contact group
 
@@ -423,10 +414,10 @@ Adding a Contact
 
    .. image:: customers-and-users/add-members-tab.png
 
-4. Click the `Select` button on an empty row to launch the Contact
+4. Click the `Select Contact` button on an empty row to launch the Contact
    selector popup.
 
-   .. image:: customers-and-users/add-members-select-button.png
+..   .. image:: customers-and-users/add-members-select-button.png
 
 5. Select the contact you want to add from the Contact popup selector.
 
@@ -435,7 +426,7 @@ Adding a Contact
 5. If there are no blank contact rows, click the `Add more` button to
    add a blank contact row.
 
-   .. image:: customers-and-users/add-more-button.png
+..   .. image:: customers-and-users/add-more-button.png
 
 6. Repeat as necessary to add more contacts, then click `Save` to save
    the contact group.
@@ -458,11 +449,11 @@ Removing a Contact
 
 3. Click the `Edit` button in the contact admin toolbar.
 
-   .. image:: customers-and-users/edit-contact-group-from-contact.png
+..   .. image:: customers-and-users/edit-contact-group-from-contact.png
 
 4. Find the contact group whose membership you wish to edit in the
-   `Contact Groups` list, uncheck the corresponding box, and click
-   `Save` to update the contact's group membership.
+   `Contact Groups` list, click the `x` button on the contact group, and 
+   click `Save` to update the contact's group membership.
 
 Creating a Sales Range
 ^^^^^^^^^^^^^^^^^^^^^^
