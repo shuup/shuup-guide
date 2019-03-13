@@ -3,7 +3,7 @@ Shuup Guide
 
 This is a guide for merchants on how to use Shuup.
 
-For more information about Shuup, see https://shoop.com/ and `Shuup
+For more information about Shuup, see https://shuup.com/ and `Shuup
 at GitHub <https://github.com/shuup/shuup>`_.
 
 Copyright

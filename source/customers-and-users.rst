@@ -23,8 +23,9 @@ Creating a User
    .. image:: customers-and-users/new-user.png
 
 .. note::
-   A user won't automatically receive notice that an account has been
-   created for them.
+   Unless they have a `Staff status` and the `Send email confirmation` 
+   box is checked, a user won't automatically receive notice that 
+   an account has been makcreated for them.
 
    Instead, if you would like to notify a user, send a password-reset
    email.
@@ -43,9 +44,9 @@ Creating a User From a Saved Contact
 
    .. image:: customers-and-users/select-contact.png
 
-3. Click the `New User` button on the Contact admin toolbar.
+3. Click the `Options` button on the Contact admin toolbar and select `New User`.
 
-   .. image:: customers-and-users/new-user-from-contact.png
+..   .. image:: customers-and-users/new-user-from-contact.png
 
 4. Enter the new user's username and password information and click
    `Save` to create the user account, which will now be associated with
@@ -54,7 +55,7 @@ Creating a User From a Saved Contact
    .. image:: customers-and-users/new-user.png
 
 
-   See `Creating a User` for more information.
+   See `Creating a User`_ for more information.
 
 Managing User Passwords
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -76,10 +77,10 @@ Changing User Passwords
 
    .. image:: customers-and-users/change-password.png
 
-4. Enter the new password in the `Change User Password` form and
-   click `Save` in the toolbar to save the new password.
+4. Enter the current and new passwords in the `Change User Password` 
+   form and click `Save` in the toolbar to save the new password.
 
-   .. image:: customers-and-users/change-password-form.png
+..   .. image:: customers-and-users/change-password-form.png
 
 Sending Password-Reset Emails
 *****************************
@@ -162,35 +163,6 @@ To deactivate a user:
    will be replaced with an `Activate User` button.
 
 .. note:: The same steps can be followed to activate a deactivated user.
-
-Logging in as a User
-^^^^^^^^^^^^^^^^^^^^
-
-When troubleshooting a problem for a customer, it may be useful to log
-in under the user's account.
-
-To log in as a user:
-
-1. When logged in as a superuser, navigate to the Users admin page by
-   clicking `Users` under the `Settings` category from the Shuup Admin
-   menu.
-
-   .. image:: customers-and-users/users-menu.png
-
-2. Select the user you want to log in as.
-
-   .. image:: customers-and-users/select-user.png
-
-3. Click the `Login as User` button on the user admin toolbar.
-
-   .. image:: customers-and-users/login-as-user-button.png
-
-4. You will now be logged in as the user.
-
-.. note::
-
-   If a superuser places an order as another user, the superuser will be
-   listed as the creator on the orders details page.
 
 Permission Groups
 ~~~~~~~~~~~~~~~~~
