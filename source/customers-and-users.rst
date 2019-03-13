@@ -174,19 +174,20 @@ Creating a Permission Group
 ---------------------------
 
 1. Navigate to the Permission Groups admin page by clicking `Permission
-   Groups` under the `Contacts` category from the Shuup Admin menu.
+   Groups` under the `Shops` category from the Shuup Admin menu.
 
-   .. image:: customers-and-users/permission-groups-menu.png
+..   .. image:: customers-and-users/permission-groups-menu.png
 
-2. Click the `New group` button on the Permission Group admin toolbar.
+2. Click the `Create New Permission group` button on the Permission 
+   Group admin toolbar.
 
-   .. image:: customers-and-users/new-group-button.png
+..   .. image:: customers-and-users/new-group-button.png
 
-3. Enter a name for the group, select any modules (or admin sections)
-   the group should have access to, and select any users that should be
-   members of this group.
+3. Enter a name for the group, select any users that should be
+   members of this group, and select any modules (or admin sections)
+   the group should have access to.
 
-   .. image:: customers-and-users/permission-groups-form.png
+..   .. image:: customers-and-users/permission-groups-form.png
 
    .. note::
 
