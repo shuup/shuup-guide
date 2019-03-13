@@ -15,13 +15,13 @@ Contents:
    products
    using-themes
    payment-and-shipping
-   domains
    tax-settings
    orders
-   campaigns
-   stock-management
    customers-and-users
    reports-and-analytics
+
+..   campaigns
+   stock-management
    addons
 
 Indices and tables

@@ -103,9 +103,9 @@ Shop Settings
    the tax display settings.
 
 1. Navigate to the Shops admin page by clicking `Shops` under the
-   `Storefront` category from the Shuup Admin menu.
+   `Shops` category from the Shuup Admin menu.
 
-   .. image:: tax-settings/shops-menu.png
+..   .. image:: tax-settings/shops-menu.png
 
 2. Select the shop whose tax display settings you would like to modify.
 
@@ -117,23 +117,3 @@ Shop Settings
    .. image:: tax-settings/prices-include-tax.png
 
 4. Click `Save` to save the shop settings.
-
-Contact Group Settings
-^^^^^^^^^^^^^^^^^^^^^^
-
-1. Navigate to the Contact Groups admin page by clicking `Contact
-   Groups` under the `Contacts` category from the Shuup Admin menu.
-
-   .. image:: tax-settings/contact-groups-menu.png
-
-2. Select the contact group whose tax display settings you want to
-   configure.
-
-   .. image:: tax-settings/select-contact-group.png
-
-3. Set the price-display mode for the contact group.
-
-   .. image:: tax-settings/contact-group-price-display-mode.png
-
-4. Click `Save` to save the price-display settings for that contact
-   group.
