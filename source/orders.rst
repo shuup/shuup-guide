@@ -18,11 +18,13 @@ To create an order through the Shuup Admin:
 
    .. image:: orders/new-order.png
 
-3. Under the `Customer details` section, click `Select Existing
-   Customer` to launch the customer selection popup, or leave choice
-   as `New Customer` to create a new customer along with the order.
+3. Under the `Customer details` section, search the customer by name 
+   or email to select an existing customer, click the search icon to 
+   launch the customer selection popup or leave the field blank to 
+   create a new customer along with the order. If a customer is selected, 
+   click the bin icon to delete it
 
-   .. image:: orders/customer-details.png
+..   .. image:: orders/customer-details.png
 
    Enter any required or missing address information.
 
@@ -151,44 +153,22 @@ To print a delivery slip for an order shipment:
 3. If you haven't already done so, create an order shipment.
 
    See `Creating an Order Shipment`_
-4. Click `Print` in the Orders admin toolbar
+4. Click `Printouts` tab on the left-hand side of the screen
 
-   .. image:: orders/print-button.png
+..   .. image:: orders/print-button.png
 
-5. Select `Get Delivery Slip` for the order shipment you would like to
+5. Click `Get Delivery Slip HTML` for the order shipment you would like to
    print (there will be one available for each shipment).
 
-   .. image:: orders/get-delivery-slip.png
+..   .. image:: orders/get-delivery-slip.png
 
-6. You will now be taken to a PDF of the delivery slip, which you can
+6. You will now be taken to the delivery slip, which you can
    either print or save to your computer from your browser menu
 
-   .. image:: orders/delivery-slip.png
+..   .. image:: orders/delivery-slip.png
 
 Order Payments
 ~~~~~~~~~~~~~~
-
-Viewing Order Payments
-^^^^^^^^^^^^^^^^^^^^^^
-
-To view all payments for an order:
-
-1. Navigate to the Orders admin page by clicking `Orders` under the
-   `Orders` category from the Shuup Admin menu.
-
-   .. image:: orders/orders-menu.png
-
-2. Select the order whose payments you want to view
-
-   .. image:: orders/select-order.png
-
-3. Click the `Payments` tab on the left-hand side of the screen
-
-   .. image:: orders/payments-tab.png
-
-4. Details will be listed for all payments associated with that order
-
-   .. image:: orders/payments.png
 
 Creating an Order Payment
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -215,6 +195,31 @@ To create an order payment:
    .. image:: orders/create-payment.png
 
 6. Click the `Create Payment` button to create the payment.
+
+Viewing Order Payments
+^^^^^^^^^^^^^^^^^^^^^^
+
+To view all payments for an order:
+
+1. Navigate to the Orders admin page by clicking `Orders` under the
+   `Orders` category from the Shuup Admin menu.
+
+   .. image:: orders/orders-menu.png
+
+2. Select the order whose payments you want to view
+
+   .. image:: orders/select-order.png
+
+3. Click the `Payments` tab on the left-hand side of the screen
+
+   .. image:: orders/payments-tab.png
+
+.. note::
+   The `Payment` tab won't be available unless a payment has been created
+
+4. Details will be listed for all payments associated with that order
+
+   .. image:: orders/payments.png
 
 Order Refunds
 ~~~~~~~~~~~~~
@@ -310,10 +315,6 @@ Canceling an Order
 .. note::
    Only unpaid and unshipped orders can be canceled.
 
-   If an order has been fully paid or fully shipped, the `Cancel Order`
-   button will be disabled and you will not be able to cancel the
-   order.
-
 To cancel an order:
 
 1. Navigate to the Orders admin page by clicking `Orders` under the
@@ -325,15 +326,19 @@ To cancel an order:
 
    .. image:: orders/select-order.png
 
-3. Click `Cancel Order` in the order toolbar
+3. Click `Set Status` in the order toolbar
 
-   .. image:: orders/cancel-order-button.png
+..   .. image:: orders/cancel-order-button.png
+
+4. Click `Canceled` in the dropdown menu
 
 The order will now be marked as `canceled` in the Orders admin list.
 
 Completing an Order
 ~~~~~~~~~~~~~~~~~~~
-Once an order has been shipping, it can be marked as completed.
+
+.. note::
+   Only fully shipped orders chan be completed.
 
 To set an order as complete:
 
@@ -346,16 +351,13 @@ To set an order as complete:
 
    .. image:: orders/select-order.png
 
-3. Click `Set Complete` in the order toolbar
+3. Click `Set Status` in the order toolbar
 
-   .. image:: orders/set-complete-button.png
+..   .. image:: orders/set-complete-button.png
+
+4. Click `Complete` in the dropdown menu
 
 The order will now be marked as `completed`.
-
-.. note::
-   If the order cannot be completed (not all items have been shipped),
-   the `Set Complete` button will be disabled and you will not be able
-   to complete the order.
 
 Printing an Order Confirmation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -369,15 +371,15 @@ Printing an Order Confirmation
 
    .. image:: orders/select-order.png
 
-3. Click `Print` in the order toolbar
+3. Click `Printouts` tab on the left-hand side of the screen
 
-   .. image:: orders/print-button.png
+..   .. image:: orders/print-button.png
 
-4. Select `Get Order Confirmation` from the dropdown menu
+4. Select `Get Order Confirmation HTML` from the dropdown menu
 
-   .. image:: orders/get-order-confirmation.png
+..   .. image:: orders/get-order-confirmation.png
 
-5. You will now be taken to a PDF of the order confirmation, which you
+5. You will now be taken to the order confirmation, which you
    can either print or save to your computer from your browser menu
 
-   .. image:: orders/order-confirmation.png
+..   .. image:: orders/order-confirmation.png

@@ -19,6 +19,7 @@ Contents:
    orders
    customers-and-users
    reports-and-analytics
+
 ..   campaigns
    stock-management
    addons
