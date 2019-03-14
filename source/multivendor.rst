@@ -83,6 +83,31 @@ create a shipment, set the tracking code or the order status.
 As a Marketplace Staff Member
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Create a new Vendor
+^^^^^^^^^^^^^^^^^^^
+
+1. Navigate to the Vendors Management page by clicking `Vendor Management` 
+   under the `Settings` category from the Shuup Admin menu.
+
+2. Click on the `+ Create new` button.
+
+3. Fill out the Vendor's name. You can also add a description, a logo and 
+   management users. Make sure the `Enabled` and `Approved` checkboxes are 
+   selected.
+
+4. Click on the  `Contact Address` tab on the left-hand side to fill out the 
+   contact anme and address.
+
+5. You can set up opening periods in the `Opening periods` tab on the left-hand 
+   side.
+
+6. Click on the `Save` button.
+
+The Vendor will receive an email notification for the registration and another 
+one for the approval if the `Approved` checkbox was selected during the 
+creation process. Vendors can log in their admin panel as soon as they are 
+approved.
+
 Approving a Vendor
 ^^^^^^^^^^^^^^^^^^
 
@@ -99,7 +124,22 @@ Approving a Vendor
 5. Click `Save`
 
 The Vendor will receive an email notification once their registration is 
+approved. Vendors can log in their admin panel as soon as they are 
 approved.
 
 Orders from all Vendors
 ^^^^^^^^^^^^^^^^^^^^^^^
+
+Navigate to the `Vendor Orders` page by clicking `Vendor Orders` under the 
+`Orders` category from the Shuup Admin menu.
+
+On this page, you will find all the orders that have been made for  all the 
+vendors in the marketplace. There are multiple filters available to single 
+orders out. 
+
+Click on an order to see the order information like the order details, the 
+customer name, email, billing and shipping address as well as the product name, 
+quantity and price.
+
+Depending on your marketplace configuration, it might also be possible to 
+create a shipment, set the tracking code or the order status.
