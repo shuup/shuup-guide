@@ -23,8 +23,9 @@ Creating a User
    .. image:: customers-and-users/new-user.png
 
 .. note::
-   A user won't automatically receive notice that an account has been
-   created for them.
+   Unless they have a `Staff status` and the `Send email confirmation` 
+   box is checked, a user won't automatically receive notice that 
+   an account has been makcreated for them.
 
    Instead, if you would like to notify a user, send a password-reset
    email.
@@ -43,9 +44,9 @@ Creating a User From a Saved Contact
 
    .. image:: customers-and-users/select-contact.png
 
-3. Click the `New User` button on the Contact admin toolbar.
+3. Click the `Options` button on the Contact admin toolbar and select `New User`.
 
-   .. image:: customers-and-users/new-user-from-contact.png
+..   .. image:: customers-and-users/new-user-from-contact.png
 
 4. Enter the new user's username and password information and click
    `Save` to create the user account, which will now be associated with
@@ -54,7 +55,7 @@ Creating a User From a Saved Contact
    .. image:: customers-and-users/new-user.png
 
 
-   See `Creating a User` for more information.
+   See `Creating a User`_ for more information.
 
 Managing User Passwords
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -76,10 +77,10 @@ Changing User Passwords
 
    .. image:: customers-and-users/change-password.png
 
-4. Enter the new password in the `Change User Password` form and
-   click `Save` in the toolbar to save the new password.
+4. Enter the current and new passwords in the `Change User Password` 
+   form and click `Save` in the toolbar to save the new password.
 
-   .. image:: customers-and-users/change-password-form.png
+..   .. image:: customers-and-users/change-password-form.png
 
 Sending Password-Reset Emails
 *****************************
@@ -163,35 +164,6 @@ To deactivate a user:
 
 .. note:: The same steps can be followed to activate a deactivated user.
 
-Logging in as a User
-^^^^^^^^^^^^^^^^^^^^
-
-When troubleshooting a problem for a customer, it may be useful to log
-in under the user's account.
-
-To log in as a user:
-
-1. When logged in as a superuser, navigate to the Users admin page by
-   clicking `Users` under the `Settings` category from the Shuup Admin
-   menu.
-
-   .. image:: customers-and-users/users-menu.png
-
-2. Select the user you want to log in as.
-
-   .. image:: customers-and-users/select-user.png
-
-3. Click the `Login as User` button on the user admin toolbar.
-
-   .. image:: customers-and-users/login-as-user-button.png
-
-4. You will now be logged in as the user.
-
-.. note::
-
-   If a superuser places an order as another user, the superuser will be
-   listed as the creator on the orders details page.
-
 Permission Groups
 ~~~~~~~~~~~~~~~~~
 
@@ -202,19 +174,20 @@ Creating a Permission Group
 ---------------------------
 
 1. Navigate to the Permission Groups admin page by clicking `Permission
-   Groups` under the `Contacts` category from the Shuup Admin menu.
+   Groups` under the `Shops` category from the Shuup Admin menu.
 
-   .. image:: customers-and-users/permission-groups-menu.png
+..   .. image:: customers-and-users/permission-groups-menu.png
 
-2. Click the `New group` button on the Permission Group admin toolbar.
+2. Click the `Create New Permission group` button on the Permission 
+   Group admin toolbar.
 
-   .. image:: customers-and-users/new-group-button.png
+..   .. image:: customers-and-users/new-group-button.png
 
-3. Enter a name for the group, select any modules (or admin sections)
-   the group should have access to, and select any users that should be
-   members of this group.
+3. Enter a name for the group, select any users that should be
+   members of this group, and select any modules (or admin sections)
+   the group should have access to.
 
-   .. image:: customers-and-users/permission-groups-form.png
+..   .. image:: customers-and-users/permission-groups-form.png
 
    .. note::
 
@@ -259,32 +232,17 @@ Creating a Contact
 
    .. image:: customers-and-users/contacts-menu.png
 
-2. Click the `New contact` button on the Contacts admin toolbar.
+2. Click the `New Person` or the `New Company` button on the Contacts 
+   admin toolbar.
 
-   .. image:: customers-and-users/new-contact-button.png
+..   .. image:: customers-and-users/new-contact-button.png
 
 3. Enter all basic details for the contact, including any required
    fields.
 
    .. image:: customers-and-users/contact-basic-details.png
 
-   .. note::
-
-      If adding a contact of type *Person*, the `Name` field is required
-      but unused. Instead, you will want to enter a temporary value into
-      the `name` field and (optionally) provide the contact's first name
-      last name.
-
-      If adding a contact of type *Company*, the `Name` field is
-      required and will be used as the company name. In this case, the
-      first and last names will not be used.
-
-4. Click the `Addresses` tabs on the left-hand side of the screen to
-   enter billing and shipping address information for the contact.
-
-   .. image:: customers-and-users/contact-addresses.png
-
-5. Click the `Save` button to create the contact.
+4. Click the `Save` button to create the contact.
 
 Editing a Contact
 ^^^^^^^^^^^^^^^^^
@@ -302,8 +260,14 @@ Editing a Contact
 
    .. image:: customers-and-users/edit-contact.png
 
-3. Edit the user's information and click `Save` to save the contact's
-   information.
+4. Edit the user's information
+
+5. Click the `Addresses` tabs on the left-hand side of the screen to
+   enter billing and shipping address information for the contact.
+
+   .. image:: customers-and-users/contact-addresses.png
+
+6. Click `Save` to save the contact's information.
 
    See `Creating a Contact`_ for more information.
 
@@ -351,7 +315,7 @@ Creating a Contact From a User Account
 4. Fill in the user's contact information, including any required
    fields, then save to create a saved contact for the user.
 
-   .. image:: customers-and-users/contact-basic-details.png
+..   .. image:: customers-and-users/contact-basic-details.png
 
    See `Creating a Contact`_ for more information.
 
@@ -418,9 +382,9 @@ Creating a Contact Group
 
    .. image:: customers-and-users/new-contact-group-button.png
 
-3. Select a name and price-display mode for your contact group.
+3. Select a name for your contact group.
 
-   .. image:: customers-and-users/contact-group-information.png
+..   .. image:: customers-and-users/contact-group-information.png
 
 4. Click the `Save` button to save your contact group
 
@@ -450,10 +414,10 @@ Adding a Contact
 
    .. image:: customers-and-users/add-members-tab.png
 
-4. Click the `Select` button on an empty row to launch the Contact
+4. Click the `Select Contact` button on an empty row to launch the Contact
    selector popup.
 
-   .. image:: customers-and-users/add-members-select-button.png
+..   .. image:: customers-and-users/add-members-select-button.png
 
 5. Select the contact you want to add from the Contact popup selector.
 
@@ -462,7 +426,7 @@ Adding a Contact
 5. If there are no blank contact rows, click the `Add more` button to
    add a blank contact row.
 
-   .. image:: customers-and-users/add-more-button.png
+..   .. image:: customers-and-users/add-more-button.png
 
 6. Repeat as necessary to add more contacts, then click `Save` to save
    the contact group.
@@ -485,11 +449,11 @@ Removing a Contact
 
 3. Click the `Edit` button in the contact admin toolbar.
 
-   .. image:: customers-and-users/edit-contact-group-from-contact.png
+..   .. image:: customers-and-users/edit-contact-group-from-contact.png
 
 4. Find the contact group whose membership you wish to edit in the
-   `Contact Groups` list, uncheck the corresponding box, and click
-   `Save` to update the contact's group membership.
+   `Contact Groups` list, click the `x` button on the contact group, and 
+   click `Save` to update the contact's group membership.
 
 Creating a Sales Range
 ^^^^^^^^^^^^^^^^^^^^^^
