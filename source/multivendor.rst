@@ -1,25 +1,27 @@
-Multivendor Feature
-===================
+Multivendor Addon
+=================
 
 .. note:: The Multivendor feature is currently only available through a license.
     For more information, contact support@shuup.com 
 
-.. TODO: Small introduction about features and user roles: vendor and marketplace 
-    staff
-
+The Multivendor Addon enables multiple features that facilitate the management 
+of a multivendor marketplace. The marketplace owner can manage several Vendors 
+more easily while vendors can select the products they want to sell, their 
+prices as well as manage their stocks.
 
 As a Vendor
 ~~~~~~~~~~~
 
-Registration
-^^^^^^^^^^^^
+Vendor Registration
+^^^^^^^^^^^^^^^^^^^
 
 1. From the marketplace home page, navigate to `/v/register` to access the 
    registration form. 
 
 2. Fill out the Vendor information part with the name and address of your 
    store, the Owner part is about you and the Login Information will allow you 
-   to access the admin Panel of the your store in the marketplace.
+   to access the admin Panel of the your store in the marketplace. If need be, 
+   you can update those informations later in the `Vendor Settings`_
 
 3. Click Register. 
 
@@ -30,7 +32,7 @@ After the registration, you will receive an email notification confirming that
 your registration is complete.
 
 .. note:: You will not be able to log into your account on the marketplace 
-    until a marketplace staff member approves your registration
+    until a marketplace staff member approves your registration.
 
 You will get another email notification when your registration is approved.
 
@@ -65,7 +67,7 @@ stocks, start and stop selling products and set the price. If no price is set,
 the default price will be used.
 
 Orders
-^^^^^^
+^^^^^^^
 
 Navigate to the `Vendor Orders` page by clicking `Vendor Orders` under the 
 `Orders` category from the Shuup Admin menu.
@@ -96,7 +98,7 @@ Create a new Vendor
    selected.
 
 4. Click on the  `Contact Address` tab on the left-hand side to fill out the 
-   contact anme and address.
+   contact name and address.
 
 5. You can set up opening periods in the `Opening periods` tab on the left-hand 
    side.
@@ -114,14 +116,14 @@ Approving a Vendor
 1. Navigate to the Vendors Management page by clicking `Vendor Management` 
    under the `Settings` category from the Shuup Admin menu.
 
-2. Select the Vendor you want to approve
+2. Select the Vendor you want to approve.
 
 3. You can edit the Vendor's informations such as their name, description 
    logo, contact address and opening periods.
 
-4. Select the `Approved` checkbox
+4. Select the `Approved` checkbox.
 
-5. Click `Save`
+5. Click `Save`.
 
 The Vendor will receive an email notification once their registration is 
 approved. Vendors can log in their admin panel as soon as they are 
@@ -143,3 +145,5 @@ quantity and price.
 
 Depending on your marketplace configuration, it might also be possible to 
 create a shipment, set the tracking code or the order status.
+
+See :ref:`Orders` for more information.
