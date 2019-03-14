@@ -57,9 +57,12 @@ Approving a Vendor
 
 2. Select the Vendor you want to approve
 
-3. Select the `Approved` checkbox
+3. You can edit the Vendor's informations such as their name, description 
+   logo, contact address and opening periods.
 
-4. Click `Save`
+4. Select the `Approved` checkbox
+
+5. Click `Save`
 
 The Vendor will recevie an email notification once their registration is 
 approved.
