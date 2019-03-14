@@ -19,6 +19,7 @@ Contents:
    orders
    customers-and-users
    reports-and-analytics
+   multivendor
 
 ..   campaigns
    stock-management
