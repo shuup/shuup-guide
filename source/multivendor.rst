@@ -1,7 +1,7 @@
-Multivendor Features
-====================
+Multivendor Feature
+===================
 
-.. note:: The Multivendor features are currently only available through a license.
+.. note:: The Multivendor feature is currently only available through a license.
     For more information, contact support@shuup.com 
 
 .. TODO: Small introduction about features and user roles: vendor and marketplace 
@@ -15,11 +15,11 @@ Registration
 ^^^^^^^^^^^^
 
 1. From the marketplace home page, navigate to `/v/register` to access the 
-registration form. 
+   registration form. 
 
 2. Fill out the the Vendor information part with the name and address of your 
-store, the Owner part is about you and the Login Information will allow you 
-to access the admin Panel of the your store in the marketplace.
+   store, the Owner part is about you and the Login Information will allow you 
+   to access the admin Panel of the your store in the marketplace.
 
 3. Click Register. 
 
@@ -51,6 +51,18 @@ As a Marketplace Staff Member
 
 Approving a Vendor
 ^^^^^^^^^^^^^^^^^^
+
+1. Navigate to the Vendors Management page by clicking `Vendor Management` 
+   under the `Settings` category from the Shuup Admin menu.
+
+2. Select the Vendor you want to approve
+
+3. Select the `Approved` checkbox
+
+4. Click `Save`
+
+The Vendor will recevie an email notification once their registration is 
+approved.
 
 Orders from all Vendors
 ^^^^^^^^^^^^^^^^^^^^^^^
