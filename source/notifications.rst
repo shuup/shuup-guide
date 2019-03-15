@@ -1,3 +1,5 @@
+.. _Notifications:
+
 Notifications
 =============
 
@@ -8,7 +10,7 @@ Shuup has a notification system that allow users to handle `events` triggered
 by the platform and execute `actions` for that when a set of configured 
 conditions are met. It can be translated into this phrase:
 Do an `action` when an `event` is triggered if a `condition` is met. (e.g.: 
-Send email to customer when received a new order if the user has a valid 
+Send an email to the customer when received a new order if the user has a valid 
 email).
 
 `Events` could include: 
@@ -18,10 +20,10 @@ email).
 - Vendors requesting registration
 - Many others
 
-Notifications may be delivered over different channels, such as email,=, As 
-delivery channels are also pluggable (requires developed addons that handles 
-the channel). Notifications are basically the `Actions` that will be executed 
-by the platform.
+Notifications may be delivered over different channels, such as email. As 
+delivery channels are also pluggable (which requires developed addons that 
+handles the channel), notifications are basically the `Actions` that will 
+be executed by the platform.
 
 Configuring Notifications
 ~~~~~~~~~~~~~~~~~~~~~~~~~

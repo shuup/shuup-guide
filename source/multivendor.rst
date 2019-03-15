@@ -21,7 +21,7 @@ Vendor Registration
 2. Fill out the Vendor information part with the name and address of your 
    store, the Owner part is about you and the Login Information will allow you 
    to access the admin Panel of the your store in the marketplace. If need be, 
-   you can update those informations later in the `Vendor Settings`_
+   you can update those informations later in the Vendor `Settings`_
 
 3. Click Register. 
 
@@ -110,6 +110,8 @@ one for the approval if the `Approved` checkbox was selected during the
 creation process. Vendors can log in their admin panel as soon as they are 
 approved.
 
+Se :ref:`Notifications` to set up customized Notifications
+
 Approving a Vendor
 ^^^^^^^^^^^^^^^^^^
 
@@ -128,6 +130,8 @@ Approving a Vendor
 The Vendor will receive an email notification once their registration is 
 approved. Vendors can log in their admin panel as soon as they are 
 approved.
+
+Se :ref:`Notifications` to set up customized Notifications
 
 Orders from all Vendors
 ^^^^^^^^^^^^^^^^^^^^^^^
