@@ -168,38 +168,53 @@ Permission Groups
 ~~~~~~~~~~~~~~~~~
 
 Permission groups can be used to restrict access to different sections
-of the Shuup admin for staff-level users.
+of the Shuup admin for staff-level users. Superusers have unrestricted 
+access to any section.
 
 Creating a Permission Group
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Permission Groups admin page by clicking `Permission
    Groups` under the `Shops` category from the Shuup Admin menu.
-
-..   .. image:: customers-and-users/permission-groups-menu.png
-
 2. Click the `Create New Permission group` button on the Permission 
    Group admin toolbar.
-
-..   .. image:: customers-and-users/new-group-button.png
-
 3. Enter a name for the group, select any users that should be
-   members of this group, and select any modules (or admin sections)
-   the group should have access to.
+   members of this group. You can also set the group for a user while 
+   editing it.
+   
+   .. image:: customers-and-users/new-group.png
+   
+4.  go through all the permissions sections and check the features you want 
+to give permission.
 
-..   .. image:: customers-and-users/permission-groups-form.png
+   .. image:: customers-and-users/permissions.png
 
-   .. note::
 
-      Permissions are managed on a module-level basis. For example, if
-      a user has access to the Orders module, they will have access to
-      create orders, shipments, payments, refunds.
+.. note::
 
-      Additionally, if two admin modules require the same permission
-      rights, adding one module will automatically add the second once
-      the group settings have been saved.
+      On every permission section, you will see `Module permission` and 
+      `Features permissions`. If you give the `Module permission`, it will tell 
+      to Shuup that the user can access the module as a whole. Users will be 
+      able to access the module through the main menu for example. 
+      
+      You can also give specific features permissions that will enable users to 
+      create, delete, list objects and other features that the module provides. 
+      You can give permission for the features and have the `Module permission` 
+      disabled at the same time. Disabling the module permission won't interfere 
+      on the feature permission as they are complements of each other. 
+      
+      One example for this is when you want to allow users to create customers 
+      while they are creating an order, but you don’t want them to access the 
+      customer list through the main menu. On this case you disable the customer 
+      module permission and enable the customer edit feature permission.
 
-4. Click `Save` to save the permission group settings.
+      .. image:: customers-and-users/multi-select-permissions.png
+
+The buttons `Select all permissions` and `Deselect all permissions` will check or 
+uncheck all the permissions which can be helpful when you want to disable just a 
+few permissions for the user. 
+
+5. Click `Save` to save the permission group settings.
 
 Contacts
 ~~~~~~~~

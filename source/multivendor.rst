@@ -173,3 +173,4 @@ Depending on your marketplace configuration, it might also be possible to
 create a shipment, set the tracking code or the order status.
 
 See :ref:`Orders` for more information.
+
