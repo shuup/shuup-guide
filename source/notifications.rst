@@ -5,21 +5,22 @@ Concept
 ~~~~~~~
 
 Shuup has a notification system that allow users to handle `events` triggered 
-by the platform and execute ``actions`` for that when a set of configured 
+by the platform and execute `actions` for that when a set of configured 
 conditions are met. It can be translated into this phrase:
-Do X when Y if W => Send email to customer when received a new order if the 
-user has a valid email
+Do an `action` when an `event` is triggered if a `condition` is met. (e.g.: 
+Send email to customer when received a new order if the user has a valid 
+email).
 
 `Events` could include: 
 
-- orders being created
-- shipments being dispatched
-- vendors requesting registration
-- many others
+- Orders being created
+- Shipments being dispatched
+- Vendors requesting registration
+- Many others
 
-Notifications may be delivered over different channels, such as email, as 
+Notifications may be delivered over different channels, such as email,=, As 
 delivery channels are also pluggable (requires developed addons that handles 
-the channel). Notifications are basically the ``Actions`` that will be executed 
+the channel). Notifications are basically the `Actions` that will be executed 
 by the platform.
 
 Configuring Notifications
@@ -46,7 +47,7 @@ disable them. You can add conditions to each step to be executed, like checking
 whether the customer has a valid phone or email before actually sending the 
 email/SMS.
 
-Select the `all` operation next to the `New condition` button if you don't want 
+Select the `All` operation next to the `New condition` button if you don't want 
 to add any condition (this will make sure the script will run every time).
 
 .. image:: notifications/all-operation.png
@@ -68,7 +69,7 @@ all the parameters of the selected action.
 In Send Email action, you need to fill the Recipient and the Language of the 
 email to be sent (and other optional fields). As you may ask yourself, how can 
 I know the email of the customer in cases you want to send an email when 
-customer places an order. In these cases, the event will provide "variables" 
+customer places an order? In these cases, the event will provide "variables" 
 that can be bound to the action parameters. In the `Order Received` event, for 
 example, it provides a `Customer Email` variable you can use in the 
 `Recipient`, so it will use the email that customer entered when placing the 
