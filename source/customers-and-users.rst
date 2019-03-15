@@ -9,15 +9,15 @@ Creating a User
 
 1. Navigate to the Users admin page by clicking `Users` under the
    `Settings` category from the Shuup Admin menu.
-
-   .. image:: customers-and-users/users-menu.png
-
 2. Click the `New User` button on the Users admin toolbar.
 
    .. image:: customers-and-users/new-user-button.png
 
 3. Enter a valid username and password for the user as well as any
-   other user information, then click the `Save` button in the
+   other user information, including the `Staff User` checkbox. A Staff user 
+   has the ability to login in the admin panel.
+   
+4. Then click the `Save` button in the
    to create the user account.
 
    .. image:: customers-and-users/new-user.png
@@ -25,7 +25,7 @@ Creating a User
 .. note::
    Unless they have a `Staff status` and the `Send email confirmation` 
    box is checked, a user won't automatically receive notice that 
-   an account has been makcreated for them.
+   an account has been created for them.
 
    Instead, if you would like to notify a user, send a password-reset
    email.
@@ -113,13 +113,7 @@ Editing User Permissions
 
 1. Navigate to the Users admin page by clicking `Users` under the
    `Settings` category from the Shuup Admin menu.
-
-   .. image:: customers-and-users/users-menu.png
-
 2. Select the user whose permissions you want to edit.
-
-   .. image:: customers-and-users/select-user.png
-
 3. Click the `Actions` button on the user admin toolbar, and select
    `Edit Permissions` from the dropdown menu.
 
