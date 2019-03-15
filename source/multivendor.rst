@@ -1,5 +1,5 @@
-Multivendor Addon
-=================
+Multivendor
+===========
 
 .. note:: The Multivendor feature is currently only available through a license.
     For more information, contact support@shuup.com 
