@@ -31,6 +31,8 @@ Common user roles for multivendor:
 These roles are already created in multivendor environment and can be tweaked 
 to meet the project requirements.
 
+See :ref:`Permission Groups` for more general informations on Permission Groups.
+
 As a Vendor
 ~~~~~~~~~~~
 

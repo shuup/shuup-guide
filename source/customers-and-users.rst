@@ -124,6 +124,9 @@ Editing User Permissions
 
    .. image:: customers-and-users/change-permissions.png
 
+See `Permission Groups`_ for more information on how to create and manage
+Permission Groups.
+
 Deactivating a User
 ^^^^^^^^^^^^^^^^^^^
 
@@ -157,6 +160,8 @@ To deactivate a user:
    will be replaced with an `Activate User` button.
 
 .. note:: The same steps can be followed to activate a deactivated user.
+
+.. _`Permission Groups`:
 
 Permission Groups
 ~~~~~~~~~~~~~~~~~
@@ -209,6 +214,9 @@ uncheck all the permissions which can be helpful when you want to disable just a
 few permissions for the user. 
 
 5. Click `Save` to save the permission group settings.
+
+See `Editing User Permissions`_ for more information on how to set specific 
+permissions for a single User.
 
 Contacts
 ~~~~~~~~
