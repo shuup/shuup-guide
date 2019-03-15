@@ -18,12 +18,12 @@ Contents:
    tax-settings
    orders
    customers-and-users
-   reports-and-analytics
    multivendor
 
 ..   campaigns
    stock-management
    addons
+   reports-and-analytics
 
 Indices and tables
 ==================
