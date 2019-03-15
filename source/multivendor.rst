@@ -9,6 +9,30 @@ of a multivendor marketplace. The marketplace owner can manage several Vendors
 more easily while vendors can select the products they want to sell, their 
 prices as well as manage their stocks.
 
+User-roles and Permissions
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Permissions is the basic and Initial configuration all modern application 
+should have. They are created to restrict features to a certain group of users. 
+Shuup restrict the features using `Permission Groups`. A user can be linked to 
+many permission groups. As the permissions must be explicitly granted (you must 
+check what features are allowed to access), a user will accumulate all the 
+permissions from all the linked permission groups. 
+
+Common user roles for multivendor:
+
+- Admin: (superuser). Superusers has all the permissions and can see all admin 
+  modules available.
+- Staff: Can see admin modules defined for the staff group. Main role is to 
+  manage vendors, products and orders.
+- Vendor: Can manage own products and manage vendor order lines, see vendor 
+  reports.
+
+These roles are already created in multivendor environment and can be tweaked 
+to meet the project requirements.
+
+See :ref:`Permission Groups` for more general informations on Permission Groups.
+
 As a Vendor
 ~~~~~~~~~~~
 
@@ -21,7 +45,7 @@ Vendor Registration
 2. Fill out the Vendor information part with the name and address of your 
    store, the Owner part is about you and the Login Information will allow you 
    to access the admin Panel of the your store in the marketplace. If need be, 
-   you can update those informations later in the `Vendor Settings`_
+   you can update those informations later in the Vendor `Settings`_
 
 3. Click Register. 
 
@@ -110,6 +134,8 @@ one for the approval if the `Approved` checkbox was selected during the
 creation process. Vendors can log in their admin panel as soon as they are 
 approved.
 
+Se :ref:`Notifications` to set up customized Notifications
+
 Approving a Vendor
 ^^^^^^^^^^^^^^^^^^
 
@@ -129,6 +155,8 @@ The Vendor will receive an email notification once their registration is
 approved. Vendors can log in their admin panel as soon as they are 
 approved.
 
+Se :ref:`Notifications` to set up customized Notifications
+
 Orders from all Vendors
 ^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -147,3 +175,4 @@ Depending on your marketplace configuration, it might also be possible to
 create a shipment, set the tracking code or the order status.
 
 See :ref:`Orders` for more information.
+

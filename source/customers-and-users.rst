@@ -9,15 +9,15 @@ Creating a User
 
 1. Navigate to the Users admin page by clicking `Users` under the
    `Settings` category from the Shuup Admin menu.
-
-   .. image:: customers-and-users/users-menu.png
-
 2. Click the `New User` button on the Users admin toolbar.
 
    .. image:: customers-and-users/new-user-button.png
 
 3. Enter a valid username and password for the user as well as any
-   other user information, then click the `Save` button in the
+   other user information, including the `Staff User` checkbox. A Staff user 
+   has the ability to login in the admin panel.
+   
+4. Then click the `Save` button in the
    to create the user account.
 
    .. image:: customers-and-users/new-user.png
@@ -25,7 +25,7 @@ Creating a User
 .. note::
    Unless they have a `Staff status` and the `Send email confirmation` 
    box is checked, a user won't automatically receive notice that 
-   an account has been makcreated for them.
+   an account has been created for them.
 
    Instead, if you would like to notify a user, send a password-reset
    email.
@@ -64,7 +64,7 @@ Changing User Passwords
 ***********************
 
 1. Navigate to the Users admin page by clicking `Users` under the
-   `Settings` category from the Shuup Admin menu
+   `Settings` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/users-menu.png
 
@@ -72,7 +72,7 @@ Changing User Passwords
 
    .. image:: customers-and-users/select-user.png
 
-3. Click the `Actions` button on the user admin toolbar, and select
+3. Click the `Actions` button on the user admin toolbar and select
    `Change Password` from the dropdown menu.
 
    .. image:: customers-and-users/change-password.png
@@ -94,7 +94,7 @@ Sending Password-Reset Emails
 
    .. image:: customers-and-users/select-user.png
 
-3. Click the `Actions` button on the user admin toolbar, and select
+3. Click the `Actions` button on the user admin toolbar and select
    `Send Password Reset Email` from the dropdown menu.
 
    .. image:: customers-and-users/send-password-reset-email.png
@@ -113,14 +113,8 @@ Editing User Permissions
 
 1. Navigate to the Users admin page by clicking `Users` under the
    `Settings` category from the Shuup Admin menu.
-
-   .. image:: customers-and-users/users-menu.png
-
 2. Select the user whose permissions you want to edit.
-
-   .. image:: customers-and-users/select-user.png
-
-3. Click the `Actions` button on the user admin toolbar, and select
+3. Click the `Actions` button on the user admin toolbar and select
    `Edit Permissions` from the dropdown menu.
 
    .. image:: customers-and-users/edit-permissions.png
@@ -130,6 +124,9 @@ Editing User Permissions
 
    .. image:: customers-and-users/change-permissions.png
 
+See `Permission Groups`_ for more information on how to create and manage
+Permission Groups.
+
 Deactivating a User
 ^^^^^^^^^^^^^^^^^^^
 
@@ -138,8 +135,8 @@ will no longer be able to log in to their account and by default are
 not displayed when first opening the Users admin page.
 
 .. note::
-   If a user has an associated contact, deactiving the user's user
-   account will not deactive their contact, although it will prevent
+   If a user has an associated contact, deactivating the user's user
+   account will not deactivate their contact, although it will prevent
    them from logging in, essentially accomplishing the same thing.
 
    See `Deactivating a Contact`_ for more information.
@@ -164,42 +161,62 @@ To deactivate a user:
 
 .. note:: The same steps can be followed to activate a deactivated user.
 
+.. _`Permission Groups`:
+
 Permission Groups
 ~~~~~~~~~~~~~~~~~
 
 Permission groups can be used to restrict access to different sections
-of the Shuup admin for staff-level users.
+of the Shuup admin for staff-level users. Superusers have unrestricted 
+access to any section.
 
 Creating a Permission Group
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Navigate to the Permission Groups admin page by clicking `Permission
    Groups` under the `Shops` category from the Shuup Admin menu.
-
-..   .. image:: customers-and-users/permission-groups-menu.png
-
 2. Click the `Create New Permission group` button on the Permission 
    Group admin toolbar.
-
-..   .. image:: customers-and-users/new-group-button.png
-
 3. Enter a name for the group, select any users that should be
-   members of this group, and select any modules (or admin sections)
-   the group should have access to.
+   members of this group. You can also set the group for a user while 
+   editing it.
+   
+   .. image:: customers-and-users/new-group.png
+   
+4.  go through all the permissions sections and check the features you want 
+to give permission.
 
-..   .. image:: customers-and-users/permission-groups-form.png
+   .. image:: customers-and-users/permissions.png
 
-   .. note::
 
-      Permissions are managed on a module-level basis. For example, if
-      a user has access to the Orders module, they will have access to
-      create orders, shipments, payments, refunds.
+.. note::
 
-      Additionally, if two admin modules require the same permission
-      rights, adding one module will automatically add the second once
-      the group settings have been saved.
+      On every permission section, you will see `Module permission` and 
+      `Features permissions`. If you give the `Module permission`, it will tell 
+      to Shuup that the user can access the module as a whole. Users will be 
+      able to access the module through the main menu for example. 
+      
+      You can also give specific features permissions that will enable users to 
+      create, delete, list objects and other features that the module provides. 
+      You can give permission for the features and have the `Module permission` 
+      disabled at the same time. Disabling the module permission won't interfere 
+      on the feature permission as they are complements of each other. 
+      
+      One example for this is when you want to allow users to create customers 
+      while they are creating an order, but you don’t want them to access the 
+      customer list through the main menu. On this case you disable the customer 
+      module permission and enable the customer edit feature permission.
 
-4. Click `Save` to save the permission group settings.
+      .. image:: customers-and-users/multi-select-permissions.png
+
+The buttons `Select all permissions` and `Deselect all permissions` will check or 
+uncheck all the permissions which can be helpful when you want to disable just a 
+few permissions for the user. 
+
+5. Click `Save` to save the permission group settings.
+
+See `Editing User Permissions`_ for more information on how to set specific 
+permissions for a single User.
 
 Contacts
 ~~~~~~~~
@@ -260,7 +277,7 @@ Editing a Contact
 
    .. image:: customers-and-users/edit-contact.png
 
-4. Edit the user's information
+4. Edit the user's information.
 
 5. Click the `Addresses` tabs on the left-hand side of the screen to
    enter billing and shipping address information for the contact.
@@ -307,7 +324,7 @@ Creating a Contact From a User Account
 
    .. image:: customers-and-users/select-user.png
 
-3. Click the `Actions` button on the user admin toolbar, and select
+3. Click the `Actions` button on the user admin toolbar and select
    `Create Contact` from the dropdown menu.
 
    .. image:: customers-and-users/new-contact-from-user.png
@@ -332,8 +349,8 @@ will no longer be able to log in to their account and by default are
 not displayed when first opening the Contacts admin page.
 
 .. note::
-   If a contact has an associated user, deactiving the user's contact
-   will not deactive their user account, although it will prevent them
+   If a contact has an associated user, deactivating the user's contact
+   will not deactivate their user account, although it will prevent them
    from logging in, essentially accomplishing the same thing.
 
    See `Deactivating a User`_ for more information.
@@ -386,7 +403,7 @@ Creating a Contact Group
 
 ..   .. image:: customers-and-users/contact-group-information.png
 
-4. Click the `Save` button to save your contact group
+4. Click the `Save` button to save your contact group.
 
    Once the contact group has been saved, two new tabs will be
    automatically added to the group's admin page--a `Members` tab
@@ -462,7 +479,7 @@ Contact group *sales ranges* can be used to automatically assign
 customer contacts to contact groups based on their sales totals.
 
 This can be useful if you want to target different sales levels for
-special campaigns, or offer special discounts or promotions.
+special campaigns or offer special discounts or promotions.
 
 1. Navigate to the Contact Groups admin page by clicking `Contact
    Groups` under the `Contacts` category from the Shuup Admin menu.
