@@ -9,6 +9,28 @@ of a multivendor marketplace. The marketplace owner can manage several Vendors
 more easily while vendors can select the products they want to sell, their 
 prices as well as manage their stocks.
 
+User-roles and Permissions
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Permissions is the basic and Initial configuration all modern application 
+should have. They are created to restrict features to a certain group of users. 
+Shuup restrict the features using `Permission Groups`. A user can be linked to 
+many permission groups. As the permissions must be explicitly granted (you must 
+check what features are allowed to access), a user will accumulate all the 
+permissions from all the linked permission groups. 
+
+Common user roles for multivendor:
+
+- Admin: (superuser). Superusers has all the permissions and can see all admin 
+  modules available.
+- Staff: Can see admin modules defined for the staff group. Main role is to 
+  manage vendors, products and orders.
+- Vendor: Can manage own products and manage vendor order lines, see vendor 
+  reports.
+
+These roles are already created in multivendor environment and can be tweaked 
+to meet the project requirements.
+
 As a Vendor
 ~~~~~~~~~~~
 
