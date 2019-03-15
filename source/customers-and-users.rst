@@ -64,7 +64,7 @@ Changing User Passwords
 ***********************
 
 1. Navigate to the Users admin page by clicking `Users` under the
-   `Settings` category from the Shuup Admin menu
+   `Settings` category from the Shuup Admin menu.
 
    .. image:: customers-and-users/users-menu.png
 
@@ -72,7 +72,7 @@ Changing User Passwords
 
    .. image:: customers-and-users/select-user.png
 
-3. Click the `Actions` button on the user admin toolbar, and select
+3. Click the `Actions` button on the user admin toolbar and select
    `Change Password` from the dropdown menu.
 
    .. image:: customers-and-users/change-password.png
@@ -94,7 +94,7 @@ Sending Password-Reset Emails
 
    .. image:: customers-and-users/select-user.png
 
-3. Click the `Actions` button on the user admin toolbar, and select
+3. Click the `Actions` button on the user admin toolbar and select
    `Send Password Reset Email` from the dropdown menu.
 
    .. image:: customers-and-users/send-password-reset-email.png
@@ -114,7 +114,7 @@ Editing User Permissions
 1. Navigate to the Users admin page by clicking `Users` under the
    `Settings` category from the Shuup Admin menu.
 2. Select the user whose permissions you want to edit.
-3. Click the `Actions` button on the user admin toolbar, and select
+3. Click the `Actions` button on the user admin toolbar and select
    `Edit Permissions` from the dropdown menu.
 
    .. image:: customers-and-users/edit-permissions.png
@@ -132,8 +132,8 @@ will no longer be able to log in to their account and by default are
 not displayed when first opening the Users admin page.
 
 .. note::
-   If a user has an associated contact, deactiving the user's user
-   account will not deactive their contact, although it will prevent
+   If a user has an associated contact, deactivating the user's user
+   account will not deactivate their contact, although it will prevent
    them from logging in, essentially accomplishing the same thing.
 
    See `Deactivating a Contact`_ for more information.
@@ -269,7 +269,7 @@ Editing a Contact
 
    .. image:: customers-and-users/edit-contact.png
 
-4. Edit the user's information
+4. Edit the user's information.
 
 5. Click the `Addresses` tabs on the left-hand side of the screen to
    enter billing and shipping address information for the contact.
@@ -316,7 +316,7 @@ Creating a Contact From a User Account
 
    .. image:: customers-and-users/select-user.png
 
-3. Click the `Actions` button on the user admin toolbar, and select
+3. Click the `Actions` button on the user admin toolbar and select
    `Create Contact` from the dropdown menu.
 
    .. image:: customers-and-users/new-contact-from-user.png
@@ -341,8 +341,8 @@ will no longer be able to log in to their account and by default are
 not displayed when first opening the Contacts admin page.
 
 .. note::
-   If a contact has an associated user, deactiving the user's contact
-   will not deactive their user account, although it will prevent them
+   If a contact has an associated user, deactivating the user's contact
+   will not deactivate their user account, although it will prevent them
    from logging in, essentially accomplishing the same thing.
 
    See `Deactivating a User`_ for more information.
@@ -395,7 +395,7 @@ Creating a Contact Group
 
 ..   .. image:: customers-and-users/contact-group-information.png
 
-4. Click the `Save` button to save your contact group
+4. Click the `Save` button to save your contact group.
 
    Once the contact group has been saved, two new tabs will be
    automatically added to the group's admin page--a `Members` tab
@@ -471,7 +471,7 @@ Contact group *sales ranges* can be used to automatically assign
 customer contacts to contact groups based on their sales totals.
 
 This can be useful if you want to target different sales levels for
-special campaigns, or offer special discounts or promotions.
+special campaigns or offer special discounts or promotions.
 
 1. Navigate to the Contact Groups admin page by clicking `Contact
    Groups` under the `Contacts` category from the Shuup Admin menu.
