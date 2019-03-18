@@ -1,3 +1,5 @@
+.. _Stock Management:
+
 Stock Management
 ================
 

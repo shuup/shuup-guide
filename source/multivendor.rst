@@ -140,6 +140,9 @@ number of products that are physically in stock and they are waiting to be
 shipped. Both numbers will be equal when all products from their orders are 
 fully shipped.
 
+See :ref:`Stock Management` for more general information about Stock 
+Management.
+
 Orders
 ^^^^^^^
 
@@ -184,7 +187,7 @@ one for the approval if the `Approved` checkbox was selected during the
 creation process. Vendors can log in their admin panel as soon as they are 
 approved.
 
-Se :ref:`Notifications` to set up customized Notifications
+See :ref:`Notifications` to set up customized Notifications
 
 Approving a Vendor
 ^^^^^^^^^^^^^^^^^^
@@ -205,7 +208,7 @@ The Vendor will receive an email notification once their registration is
 approved. Vendors can log in their admin panel as soon as they are 
 approved.
 
-Se :ref:`Notifications` to set up customized Notifications
+See :ref:`Notifications` to set up customized Notifications
 
 Orders from all Vendors
 ^^^^^^^^^^^^^^^^^^^^^^^
