@@ -1,7 +1,7 @@
 Stock Management
 ================
 
-Stock management is a crucial feature that all ecommerce platforms must have. 
+Stock management is a crucial feature that all e-commerce platforms must have. 
 Shuup is designed to be the more extendable as possible.
 
 To a product be able to be purchased, it `must` have at least a `Supplier` set. 
@@ -28,7 +28,7 @@ enough for the majority cases.
 Besides that, the supplier has flags like `Enabled` and `Approved`, they just 
 make the supplier available or not in the platform.
 
-The supplier has also a Stock Managed flag, which dictates whether this supplier 
+The supplier also has a Stock Managed flag, which dictates whether this supplier 
 actually manages stocks. If that is disabled, products can be unlimited 
 purchased – no stocks check. If the flag is enabled, it is also possible to 
 disable stocks check for specific products. The flag is enabled by default.
