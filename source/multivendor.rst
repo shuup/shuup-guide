@@ -90,6 +90,59 @@ find a product more easily, you can filter them by name. You can manage your
 stocks, start and stop selling products and set the price. If no price is set, 
 the default price will be used.
 
+Stock Management
+^^^^^^^^^^^^^^^^
+
+Stock management is a crucial feature that all e-commerce platforms must have. 
+Shuup is designed to be the more extendable as possible.
+
+To a product be able to be purchased, it `must` have at least a `Supplier` set. 
+Suppliers are responsible to return whether a product can be purchased for a 
+given quantity (and other context values such as the current customer).
+
+In multivendor environment, each Vendor is a Supplier behind the scenes, and 
+the vendor can manage only the products it supplies.
+
+Managing Stocks
+^^^^^^^^^^^^^^^
+
+To manage stocks, go to `Product > Products`. Pick a product and click on the 
+`Stock Management` section. 
+
+.. image:: multivendor/stock-management.png
+
+On this management panel it is possible to update stocks, alert limit and 
+disable the stock management for this specific product.
+
+The initial management status is configured per-project. If the stock management 
+is disabled, the product can be purchased unlimitedly – no stocks are checked.
+
+To update stocks, fill the `Quantity` field and press the `Add stock`. The 
+purchase price can be optionally filled for future reports. Stock will be 
+incremented if the quantity is a positive number and decremented if the quantity 
+is a negative number.
+
+The alert limit can also be set and when Notifications addon is enabled, it will 
+trigger an event that can be configured send email to users or any other logic.
+
+Stock reports
+^^^^^^^^^^^^^
+
+Stocks can be listed in a simple way using a stock report. Go to `Reports` and 
+select the `Vendor Product Report`, fill the filters if needed and press the 
+`Get Report button`.
+
+.. image:: multivendor/stock-management2.png
+
+The report shows the product name, price and the current stock status. Logical 
+stock is the number of products available for sale and Physical stock is the 
+number of products that are physically in stock and they are waiting to be 
+shipped. Both numbers will be equal when all products from their orders are 
+fully shipped.
+
+See :ref:`Stock Management` for more general information about Stock 
+Management.
+
 Orders
 ^^^^^^^
 
@@ -134,7 +187,7 @@ one for the approval if the `Approved` checkbox was selected during the
 creation process. Vendors can log in their admin panel as soon as they are 
 approved.
 
-Se :ref:`Notifications` to set up customized Notifications
+See :ref:`Notifications` to set up customized Notifications
 
 Approving a Vendor
 ^^^^^^^^^^^^^^^^^^
@@ -155,7 +208,7 @@ The Vendor will receive an email notification once their registration is
 approved. Vendors can log in their admin panel as soon as they are 
 approved.
 
-Se :ref:`Notifications` to set up customized Notifications
+See :ref:`Notifications` to set up customized Notifications
 
 Orders from all Vendors
 ^^^^^^^^^^^^^^^^^^^^^^^

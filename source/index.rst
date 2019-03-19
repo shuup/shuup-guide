@@ -13,16 +13,16 @@ Contents:
 
    using-the-shuup-admin
    products
+   multivendor
+   stock-management
    using-themes
    payment-and-shipping
    tax-settings
    orders
    customers-and-users
-   multivendor
    notifications
 
 ..   campaigns
-   stock-management
    addons
    reports-and-analytics
 
