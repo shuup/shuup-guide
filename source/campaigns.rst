@@ -1,36 +1,22 @@
 Campaigns
 =========
 
-Shuup Ecommerce platform comes built in with customized and easily
+Shuup e-commerce platform comes built in with customized and easily
 extendable campaign management system. Shuup's modular campaign
 management structure allows extending the feature to most innovative
 campaign models and even integrations.
 
-Campaign Types
---------------
-
-Shuup has two different types of campaigns:
-
-Basket Campaign
-    A campaign that is offered or fulfilled in Shuup shopping
-    basket. For example, a customer may be given a 5% discount off
-    their total order if their basket contains at least 10 products.
-
-Catalog Campaign
-    A campaign that is offered shop-wide based on the customer,
-    product, product type, or other such conditions.
-
 Creating a Campaign
 -------------------
 
-1. Navigate to either the `Basket Campaigns` or `Catalog Campaigns`
-   admin page by clicking `Basket Campaigns` or `Catalog Campaigns`
-   under the `Campaigns` category from the Shuup Admin menu.
+1. Navigate to the `Basket Campaigns` admin page by clicking 
+   `Basket Campaigns` under the `Campaigns` category from the Shuup 
+   Admin menu.
 
 .. image:: campaigns/basket-campaigns-menu.png
 
-2. Click either the `Create a new Basket Campaign` or `Create a new
-   Catalog Campaign` button in the admin page toolbar.
+2. Click the `Create a new Basket Campaign` button in the 
+   admin page toolbar.
 
 .. image:: campaigns/create-new-basket-campaign-button.png
 
@@ -54,10 +40,10 @@ Creating a Campaign
    |            | where the campaign is active               |           |
    +------------+--------------------------------------------+-----------+
    | Start date | Setting start date for the campaign        | No        |
-   | and time   | using datepicker                           |           |
+   | and time   | using date picker                          |           |
    +------------+--------------------------------------------+-----------+
    | End date   | Setting end date for the campaign using    | No        |
-   | and time   | datepicker                                 |           |
+   | and time   | date picker                                |           |
    +------------+--------------------------------------------+-----------+
 
    .. note:: If no start date is provided, it will take effect
@@ -74,11 +60,6 @@ Creating a Campaign
    Try setting up a cross-selling basket campaign by offering a
    discount on one product when a customer purchases  a related product.
 
-.. tip::
-
-   Try setting up a simple catalog campaign with a 5% discount for a
-   particular product.
-
 Rules and Effects
 -----------------
 
@@ -87,11 +68,8 @@ will be applied depends on its *Rules* and *Effects*.
 
 Rules
     The conditions or criteria that an order must meet before a
-    campaign will be applied. These may include having a basket with
-    a certain total value (for a basket campaign) or requiring the
-    customer to belong to a specific customer group (for a catalog
-    campaign). Different rules will be available depending on whether
-    they are being applied to a basket campaign or a catalog campaign.
+    campaign will be applied. Different rules will be available depending on 
+    whether they are being applied to a basket campaign or a catalog campaign.
 
 Effects
     If a customer's order meets the requirements of all of the
@@ -112,13 +90,13 @@ the campaign's admin page.
 
 To add rules and effects:
 
-1. Click either the `Rules` or `Effects` tab on the left hand side of
+1. Click the `Rules` or `Effects` tab on the left-hand side of
    the screen.
 
    .. image:: campaigns/rules-tab.png
 
 2. Select the rule or effect type from the dropdown menu and click
-   either the `Add rule` or `Add effect` button below to add a new
+   the `Add rule` or `Add effect` button below to add a new
    rule or effect form.
 
    .. image:: campaigns/add-rule-button.png
@@ -139,6 +117,9 @@ Basket maximum product count
     Limit to baskets containing at most the specific number of products
 Basket total value
     Limit to baskets containing at least the specified total amount
+Undiscounted basket total value
+    Limit the campaign to match when it has at least the total value entered 
+    here worth of products which doesn't already have discounts 
 Basket maximum total value
     Limit to baskets containing at most the specified total amount
 Products in basket
@@ -147,8 +128,8 @@ Products in basket
     .. note::
 
        This rule applies if a basket contains *any* of the selected
-       products (i.e., a certain number of product A *or* a certain
-       number of product B).
+       products (i.e., a certain amount of product A *or* a certain
+       amount of product B).
 
        In order to require product A *and* product B, create a separate
        rule for product A and product B.
@@ -157,20 +138,10 @@ Contact Group
     Limit to customers belonging to a specific contact group
 Contact
     Limit to selected customer contacts
-
-Catalog Rules
-~~~~~~~~~~~~~
-
-Contact
-    Limit to seleclted customer contacts
-Contact Group
-    Limit to customers belonging to a specific contact group
-Product
-    Limit to a specific product
-Product Category
-    Limit to products belonging to a specific category
-Product Type
-    Limit to products of a specific type
+Category products in basket
+    Limit the campaign to match the products from selected categories
+Day and hour
+    Limit the campaign to selected days
 
 Basket Effects
 ~~~~~~~~~~~~~~
@@ -190,7 +161,7 @@ Creating a Coupon Code
 
 .. image:: campaigns/create-new-coupon-button.png
 
-3. Either type the desired coupon code you want your customers to enter,
+3. Either type the desired coupon code you want your customers to enter
    or click the `Generate` button to randomly generate a coupon code.
 
 .. image:: campaigns/generate-coupon-button.png

@@ -20,13 +20,12 @@ check what features are allowed to access), a user will accumulate all the
 permissions from all the linked permission groups. 
 
 Common user roles for multivendor:
-
-- Admin: (superuser). Superusers has all the permissions and can see all admin 
-  modules available.
-- Staff: Can see admin modules defined for the staff group. Main role is to 
-  manage vendors, products and orders.
-- Vendor: Can manage own products and manage vendor order lines, see vendor 
-  reports.
+    - Admin: (superuser). Superusers has all the permissions and can see all admin 
+      modules available.
+    - Staff: Can see admin modules defined for the staff group. Main role is to 
+      manage vendors, products and orders.
+    - Vendor: Can manage own products and manage vendor order lines, see vendor 
+      reports.
 
 These roles are already created in multivendor environment and can be tweaked 
 to meet the project requirements.

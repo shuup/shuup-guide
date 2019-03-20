@@ -21,9 +21,9 @@ Contents:
    orders
    customers-and-users
    notifications
+   campaigns
 
-..   campaigns
-   addons
+..   addons
    reports-and-analytics
 
 Indices and tables
