@@ -229,3 +229,53 @@ create a shipment, set the tracking code or the order status.
 
 See :ref:`Orders` for more information.
 
+Vendor Reviews
+~~~~~~~~~~~~~~
+
+Vendor reviews module stores users’ ratings for vendors.
+ 
+Requirements to a review be visible in the storefront:
+- Users can only create reviews for vendors of completed orders
+- The review should be approved by staff users
+- Xtheme plugin must be placed in placeholder inside the vendor detail view
+
+Creating a vendor review
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+After the user has placed his order and the order is in a completed status, 
+the user can create the review in the `Customer Dashboard`:
+
+.. image:: multivendor/customer-dashboard.png
+
+The user must select the star rating also add some comment and check whether 
+he would recommend that vendor to a friend. After that the review will be 
+available for visualization. The user can change the vendor review at any 
+time by submitting the reviews again.
+
+.. image:: multivendor/vendors-to-review.png 
+
+Once the review is sent, it should be approved by a staff user in 
+`Admin > Settings > Vendor Reviews`:
+
+.. image:: multivendor/vendor-reviews.png 
+
+The staff must select all the reviews he wants to approve/disapprove and 
+select the respective action in `Mass Action dropdown`:
+
+.. image:: multivendor/vendor-review-mass-action.png 
+
+Done. After the review is approved, it will be visible at the storefront.
+
+Configuring the plugins
+^^^^^^^^^^^^^^^^^^^^^^^
+
+The module provides a plugin to render the customer ratings in places where a 
+vendor is available in context, like the Vendor Detail page. You must add the 
+`Vendor Review Rating` plugin and configure it as needed:
+
+.. image:: multivendor/vendor-review-rating.png
+
+After all these configurations, the vendor review module will be working as it 
+should.
+
+.. image:: multivendor/vendor-review-final-result.png
