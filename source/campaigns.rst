@@ -106,10 +106,10 @@ To add rules and effects:
 
    .. image:: campaigns/rule-form.png
 
-Basket Rules
-~~~~~~~~~~~~
+Rules
+~~~~~~
 
-The following rules are available to basket campaigns:
+The following rules are available to campaigns:
 
 Basket product count
     Limit to baskets containing at least the specific number of products
