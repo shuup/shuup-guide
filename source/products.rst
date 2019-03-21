@@ -13,7 +13,7 @@ menu and select the `Products` section under the `Products` category.
 .. image:: products/products-menu.png
 
 On the `Products` page, you will see a list of all of the products
-currently in your shop. In the upper right-hand corner there is a
+currently in your shop. In the upper right-hand corner, there is a
 button labelled `New product` for creating new products. Clicking
 this will take you to the new product form, where you can enter
 information about your new product.
@@ -34,10 +34,10 @@ The left side of the form contains a number of sections of the form
 and options for that section.
 
 Basic Information Tab
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 Basic Information
     The top section of the form contains most of the basic product information
-    and settings including product name, description, type as welle as a 
+    and settings including product name, description, type as well as a 
     product image uploader and selector.
 
 Current Shop
@@ -45,7 +45,7 @@ Current Shop
     *Default*). It has the default price, font-end visibility and category. 
 
 Additional Details Tab
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
 
 Miscellaneous information regarding the product, such as the product's
 shipping mode, tax class, barcode information, the product physical 
@@ -57,10 +57,10 @@ Manufacturer
 Selection choice for the product's manufacturer.
 
 Shop-Specific Additional Tab
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The names of this tab is preceeded by the relevant shop's name (initially
-*Default*). It contains strictly shop related information such as front-end 
+The names of this tab are preceded by the relevant shop's name (initially
+*Default*). It strictly contains shop related information such as front-end 
 visibility settings for a specific shop, pricing, suppliers, 
 multiple-purchase settings.
 
@@ -79,7 +79,7 @@ Contact Group Discount
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Individual discount amounts for different contact groups. The discount 
-amount may be visible on storefront. These groups are defined in Contacts 
+amount may be visible on the storefront. These groups are defined in Contacts 
 Settings – Contact Groups
 
 Saved Product Form
@@ -109,7 +109,7 @@ Stock Management Tab
 For stocked product, this should display any stock-related management tasks
 depending on the product's supplier settings.
 
-.. todo:: Add complete reference for product fields
+.. todo: Add complete reference for product fields
 
 Active Campaigns
 ^^^^^^^^^^^^^^^^^^^^
@@ -120,6 +120,39 @@ Orders Tab
 ^^^^^^^^^^^^^^^^^^^^^
 
 Show recent orders containing the product.
+
+Product Types
+-------------
+
+Product Types define classes products and are used to associate different
+sets of attributes_ to a particular product, depending on its product type.
+
+For example, a product of type *Book* might require specific information
+such as author, ISBN, publisher, etc., while a product of type *Clothing*
+might require size, color, or other custom attributes.
+
+Attributes
+----------
+
+Shop owners can define their own attributes for `Product Types`_ from the
+Attributes Admin.
+
+1. Navigate to the Attributes admin page by clicking `Attributes` under the
+   `Shops` category from the Shuup Admin menu.
+2. Click the `New attribute` button in the upper right-hand corner
+3. Enter a name and **unique** identifier for the attribute, and select
+   the type, visibility mode, and searchability for the attribute
+4. Select the `Product Type` page (under the `Shops` category) from
+   the Shuup Admin menu
+5. Select the Product Type from the menu
+6. Under the `Attributes` tab, check the box next to the attribute
+   name for your new attribute.
+
+.. tip::
+   By default, new attributes are displayed on the product page, but there
+   are multiple visibility options that can be selected form the Attributes
+   edit page.
+
 
 Cross-Selling
 -------------
@@ -219,7 +252,7 @@ These products are stored a single package *parent*, which can be
 linked to multiple package *children*.
 
 Stock for child products is automatically updated when the package is
-purchased. Pricing, discounts, etc, of the parent product can be
+purchased. Pricing, discounts, etc., of the parent product can be
 managed like any other product.
 
 To convert a product to a package parent:
@@ -234,7 +267,7 @@ To convert a product to a package parent:
 
    .. image:: products/package-products-form.png
 
-3. Click `Save` to save the package's child product informatino.
+3. Click `Save` to save the package's child product information.
 
 
 Variation Products
