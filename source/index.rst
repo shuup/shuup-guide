@@ -15,6 +15,7 @@ Contents:
    products
    multivendor
    stock-management
+   product-reviews
    using-themes
    payment-and-shipping
    tax-settings
