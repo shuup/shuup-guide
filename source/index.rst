@@ -23,6 +23,7 @@ Contents:
    customers-and-users
    notifications
    campaigns
+   carts
 
 ..   addons
    reports-and-analytics
