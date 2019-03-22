@@ -6,7 +6,7 @@ Orders
 Creating an Order
 ~~~~~~~~~~~~~~~~~
 
-Orders can be made in one of two ways--by a customer through the shop
+Orders can be made in one of two ways: by a customer through the shop
 front or by a merchant through the Shuup Admin.
 
 To create an order through the Shuup Admin:
@@ -16,7 +16,7 @@ To create an order through the Shuup Admin:
 
    .. image:: orders/orders-menu.png
 
-2. Click the `New order` button on the Order admin toolbar
+2. Click the `New order` button on the Order admin toolbar.
 
    .. image:: orders/new-order.png
 
@@ -24,7 +24,7 @@ To create an order through the Shuup Admin:
    or email to select an existing customer, click the search icon to 
    launch the customer selection popup or leave the field blank to 
    create a new customer along with the order. If a customer is selected, 
-   click the bin icon to delete it
+   click the bin icon to delete it.
 
 ..   .. image:: orders/customer-details.png
 
@@ -57,7 +57,7 @@ To create an order through the Shuup Admin:
 
    a. Enter a product name, sku, or barcode number and select desired
       product from the dropdown results.
-   b. Press the plus button to add the product line to order, or press
+   b. Press the plus button to add the product line to order or press
       the trash button to clear the input and select a new product.
 
       .. image:: orders/quick-add.png
@@ -132,7 +132,7 @@ To create an order shipment:
 
    .. image:: orders/create-shipment.png
 
-5. Select a product supplier from the dropbown menu.
+5. Select a product supplier from the dropdown menu.
 
    .. image:: orders/supplier.png
 
@@ -148,13 +148,13 @@ To print a delivery slip for an order shipment:
 
    .. image:: orders/orders-menu.png
 
-2. Select the order whose delivery slip you want to print
+2. Select the order which delivery slip you want to print.
 
    .. image:: orders/select-order.png
 
 3. If you haven't already done so, create an order shipment.
 
-   See `Creating an Order Shipment`_
+   See `Creating an Order Shipment`_.
 4. Click `Printouts` tab on the left-hand side of the screen
 
 ..   .. image:: orders/print-button.png
@@ -165,7 +165,7 @@ To print a delivery slip for an order shipment:
 ..   .. image:: orders/get-delivery-slip.png
 
 6. You will now be taken to the delivery slip, which you can
-   either print or save to your computer from your browser menu
+   either print or save to your computer from your browser menu.
 
 ..   .. image:: orders/delivery-slip.png
 
@@ -182,7 +182,7 @@ To create an order payment:
 
    .. image:: orders/orders-menu.png
 
-2. Select the order for which you want to create a payment
+2. Select the order for which you want to create a payment.
 
    .. image:: orders/select-order.png
 
@@ -208,18 +208,18 @@ To view all payments for an order:
 
    .. image:: orders/orders-menu.png
 
-2. Select the order whose payments you want to view
+2. Select the order whose payments you want to view.
 
    .. image:: orders/select-order.png
 
-3. Click the `Payments` tab on the left-hand side of the screen
+3. Click the `Payments` tab on the left-hand side of the screen.
 
    .. image:: orders/payments-tab.png
 
 .. note::
-   The `Payment` tab won't be available unless a payment has been created
+   The `Payment` tab won't be available unless a payment has been created.
 
-4. Details will be listed for all payments associated with that order
+4. Details will be listed for all payments associated with that order.
 
    .. image:: orders/payments.png
 
@@ -233,7 +233,7 @@ Order Refunds
 
    However, refund amounts are not restricted by existing payment
    amounts, meaning it is possible to refund more than has been
-   actually payed.
+   actually paid.
 
    If an order cannot be refunded, it will not be visible in the
    `Actions` dropdown menu.
@@ -273,7 +273,7 @@ particular order line amounts:
 
    .. note::
       A separate refund line will be created if returning both a
-      quanity and an amount for a particular line.
+      quantity and an amount for a particular line.
 
 5. Click the `Add More Refunds` button to add additional refund forms.
 
@@ -324,15 +324,15 @@ To cancel an order:
 
    .. image:: orders/orders-menu.png
 
-2. Select the order that you want to cancel
+2. Select the order that you want to cancel.
 
    .. image:: orders/select-order.png
 
-3. Click `Set Status` in the order toolbar
+3. Click `Set Status` in the order toolbar.
 
 ..   .. image:: orders/cancel-order-button.png
 
-4. Click `Canceled` in the dropdown menu
+4. Click `Canceled` in the dropdown menu.
 
 The order will now be marked as `canceled` in the Orders admin list.
 
@@ -349,15 +349,15 @@ To set an order as complete:
 
    .. image:: orders/orders-menu.png
 
-2. Select the order you want to set complete
+2. Select the order you want to set complete.
 
    .. image:: orders/select-order.png
 
-3. Click `Set Status` in the order toolbar
+3. Click `Set Status` in the order toolbar.
 
 ..   .. image:: orders/set-complete-button.png
 
-4. Click `Complete` in the dropdown menu
+4. Click `Complete` in the dropdown menu.
 
 The order will now be marked as `completed`.
 
@@ -369,19 +369,19 @@ Printing an Order Confirmation
 
    .. image:: orders/orders-menu.png
 
-2. Select the order whose confirmation you want to print
+2. Select the order whose confirmation you want to print.
 
    .. image:: orders/select-order.png
 
-3. Click `Printouts` tab on the left-hand side of the screen
+3. Click `Printouts` tab on the left-hand side of the screen.
 
 ..   .. image:: orders/print-button.png
 
-4. Select `Get Order Confirmation HTML` from the dropdown menu
+4. Select `Get Order Confirmation HTML` from the dropdown menu.
 
 ..   .. image:: orders/get-order-confirmation.png
 
 5. You will now be taken to the order confirmation, which you
-   can either print or save to your computer from your browser menu
+   can either print or save to your computer from your browser menu.
 
 ..   .. image:: orders/order-confirmation.png

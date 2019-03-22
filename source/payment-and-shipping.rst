@@ -18,7 +18,7 @@ Creating a Payment/Service Provider
 ..   .. image:: payment-and-shipping/service-providers-menu.png
 
 2. Click the `New service provider` button in the Service Providers
-   admin toolbar
+   admin toolbar.
 
    .. image:: payment-and-shipping/new-service-provider-button.png
 
@@ -125,7 +125,7 @@ Waiving cost
 Weight limits
   Limit availability of the service based on total weight of products.
 Weight-based pricing range
-  Add a cost to the order if it is within a specific weight range
+  Add a cost to the order if it is within a specific weight range.
 
 .. note::
    If there are multiple valid weight-based pricing ranges for an
