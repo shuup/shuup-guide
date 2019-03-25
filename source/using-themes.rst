@@ -17,7 +17,7 @@ until a theme for the shop has been activated.
 
 .. image:: using-themes/no-theme-selected.png
 
-To active a theme, go to the Shuup Admin and click `Themes` under the
+To activate a theme, go to the Shuup Admin and click `Themes` under the
 `Content` category from the Shuup Admin menu.
 
 .. image:: using-themes/themes-menu.png
@@ -36,7 +36,7 @@ To edit a page:
 
 1. Log in as an administrative user.
 2. Navigate to the page on the shop front you want to edit.
-3. Click the `Edit Page` button in the upper right hand core to enter
+3. Click the `Edit Page` button in the upper right-hand corner to enter
    edit mode.
 
 ..   .. image:: using-themes/edit-page-button.png
@@ -47,7 +47,7 @@ To edit a page:
    .. image:: using-themes/edit-mode.png
 
 5. When finished editing, click the `Exit Edit` button to return to
-   normal mode.
+   the normal mode.
 
 ..   .. image:: using-themes/exit-edit-button.png
 

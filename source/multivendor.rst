@@ -12,7 +12,7 @@ prices as well as manage their stocks.
 User-roles and Permissions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Permissions is the basic and Initial configuration all modern application 
+Permissions are the basic and Initial configuration all modern application 
 should have. They are created to restrict features to a certain group of users. 
 Shuup restrict the features using `Permission Groups`. A user can be linked to 
 many permission groups. As the permissions must be explicitly granted (you must 
@@ -22,12 +22,12 @@ permissions from all the linked permission groups.
 Common user roles for multivendor:
     - Admin: (superuser). Superusers has all the permissions and can see all admin 
       modules available.
-    - Staff: Can see admin modules defined for the staff group. Main role is to 
+    - Staff: Can see admin modules defined for the staff group. The main role is to 
       manage vendors, products and orders.
     - Vendor: Can manage own products and manage vendor order lines, see vendor 
       reports.
 
-These roles are already created in multivendor environment and can be tweaked 
+These roles are already created in the multivendor environment and can be tweaked 
 to meet the project requirements.
 
 See :ref:`Permission Groups` for more general informations on Permission Groups.
@@ -44,7 +44,7 @@ Vendor Registration
 2. Fill out the Vendor information part with the name and address of your 
    store, the Owner part is about you and the Login Information will allow you 
    to access the admin Panel of the your store in the marketplace. If need be, 
-   you can update those informations later in the Vendor `Settings`_
+   you can update those informations later in the Vendor `Settings`_.
 
 3. Click Register. 
 
@@ -99,7 +99,7 @@ To a product be able to be purchased, it `must` have at least a `Supplier` set.
 Suppliers are responsible to return whether a product can be purchased for a 
 given quantity (and other context values such as the current customer).
 
-In multivendor environment, each Vendor is a Supplier behind the scenes, and 
+In the multivendor environment, each Vendor is a Supplier behind the scenes, and 
 the vendor can manage only the products it supplies.
 
 Managing Stocks
@@ -186,7 +186,7 @@ one for the approval if the `Approved` checkbox was selected during the
 creation process. Vendors can log in their admin panel as soon as they are 
 approved.
 
-See :ref:`Notifications` to set up customized Notifications
+See :ref:`Notifications` to set up customized Notifications.
 
 Approving a Vendor
 ^^^^^^^^^^^^^^^^^^
@@ -207,7 +207,7 @@ The Vendor will receive an email notification once their registration is
 approved. Vendors can log in their admin panel as soon as they are 
 approved.
 
-See :ref:`Notifications` to set up customized Notifications
+See :ref:`Notifications` to set up customized Notifications.
 
 Orders from all Vendors
 ^^^^^^^^^^^^^^^^^^^^^^^

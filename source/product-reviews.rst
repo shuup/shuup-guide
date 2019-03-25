@@ -6,10 +6,10 @@ them.
 
 Requirements to a review be visible in the storefront:
 
-- Users can only create reviews for completed orders
-- The review should be approved by staff users
-- Theme should be configured to show product rating on product card
-- Xtheme plugin must be placed in placeholder inside the product detail view
+- Users can only create reviews for completed orders.
+- The review should be approved by staff users.
+- Theme should be configured to show product rating on product card.
+- Xtheme plugin must be placed in placeholder inside the product detail view.
 
 Creating a Review
 ^^^^^^^^^^^^^^^^^
