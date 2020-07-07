@@ -162,15 +162,9 @@ document will give you the information you need to sucuessfully create an Order.
       When you have filled in all the fields the pages should look something like this. Now you can to press the 'Proceed' button.
 
 
-.. class:: center
+
 
 **Method rules, taxes and possible extra discounts are calculated after clicking 'Proceed'.**
-
-.. class:: center
-
-This paragraph will be centere
-
-
 
    .. figure:: ./orders/order-conformation.png
       :width: 90%
