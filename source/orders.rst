@@ -3,42 +3,72 @@
 Orders
 ======
 
+Orders can be made in one of two ways:
+   By a customer through the shop front
+   By a merchant through the Shuup Admin.
+
+
+Orders admin and staff
+======================
+
 Creating an Order
 ~~~~~~~~~~~~~~~~~
-
-Orders can be made in one of two ways: by a customer through the shop
-front or by a merchant through the Shuup Admin.
-
-To create an order through the Shuup Admin:
 
 1. Navigate to the Orders admin page by clicking `Orders` under the
    `Orders` category from the Shuup Admin menu.
 
-   .. image:: orders/orders-menu.png
+   .. image:: orders/orders-location-in-menu.png
+
+
 
 2. Click the `New order` button on the Order admin toolbar.
 
-   .. image:: orders/new-order.png
+   .. image:: orders/new-order-button-location.png
 
-3. Under the `Customer details` section, search the customer by name 
-   or email to select an existing customer, click the search icon to 
-   launch the customer selection popup or leave the field blank to 
-   create a new customer along with the order. If a customer is selected, 
-   click the bin icon to delete it.
 
-..   .. image:: orders/customer-details.png
 
-   Enter any required or missing address information.
+3. Under the **Customer details** section, search the customer by name 
+   or email, to select the customer click on the name.
+   
+   If you click the search icon, it launch the customer selection popup
+   wehere you also can search for the customer.
+   
+   By leaveing the field blank it will create a new customer along with the order.
 
-4. Under the `Order contents` section, click `Add new line` to add
-   blank order lines to the order.
+   If you select the wrong customer you can either 
+   search for the correct one and select that customer again or
+   by clicking the bin icon that will remove the customer.
 
+   .. image:: orders/customer-selection.png
+
+
+   When the customer is select correctly you will be able to view the customers details.
+
+   .. image:: orders/customer-selection-complete.png
+
+3.1. Fill in the rest of the customer details.
+   This includes the billing and shipping address.
+
+
+4. Under the **Order contents** section, you will select all 
+   order lines witch the order will contain.
+
+   If you want to add an existing product to the order,
+   search for with the text input filed.
+   This will search throught all products that are visible.
+   If you want to add products that are not visibe, click on the search icon to bring up
+   the product popup window.
+
+   .. image:: orders/order-product-selection.png
+
+   Either way you search for the product you will need to click it so it get's added to the order
+
+
+   If you want to add a blank order line to the order click `Add new line`.
    These can either be of type `product`, `other`, or `text/comment`.
 
-   If adding a product, clicking `Select product` will launch the
-   product browser window.
+   .. image:: orders/blank-order-line.png
 
-   .. image:: orders/add-new-line.png
 
    Here are the types of lines you can create in an order:
 
@@ -49,33 +79,29 @@ To create an order through the Shuup Admin:
    Text/Comment line
       A non-priced text line
 
-5. Optionally, the `Quick add product line` form can be used to quickly
-   add product lines to the order. For example, this can be used when
-   adding products using a barcode scanning device.
 
-   To quick add products:
+6. Select a shipping and payment method for the order from the
+   `Shipping Methods` dropdown and the `Payment Method` dropdown.
 
-   a. Enter a product name, sku, or barcode number and select desired
-      product from the dropdown results.
-   b. Press the plus button to add the product line to order or press
-      the trash button to clear the input and select a new product.
+   .. image:: orders/new-order-select-ship-and-payment.png
 
-      .. image:: orders/quick-add.png
 
-6. Select shipping and payment methods for the order from the Shipping
-   and Payment Methods dropdowns.
+7. When you have filled in all the fields the pages should look something like this
 
-   .. image:: orders/shipping-and-payment-methods.png
+   .. image:: orders/order-proceed.png
 
-7. Click the `Proceed` button to create the order.
-
-   .. image:: orders/proceed-button.png
+   
+   Now you can to press the `Proceed` button.
 
 .. note::
-   You must select shipping and payment methods for each order.
+   Method rules, taxes and possible extra discounts are calculated after clicking `Proceed`.
 
-.. note::
-   Method rules, taxes and possible extra discounts are calculated after proceeding.
+
+8. You will now be able to se all the order details before confirming the order.
+
+   When clicking `Confirm` the order will get placed.
+
+   .. image:: orders/order-conformation.png
 
 
 Editing an Order
