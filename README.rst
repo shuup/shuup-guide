@@ -6,6 +6,24 @@ This is a guide for merchants on how to use Shuup.
 For more information about Shuup, see https://shuup.com/ and `Shuup
 at GitHub <https://github.com/shuup/shuup>`_.
 
+Set up
+------
+
+1. Install requirements by runing `pip install -r requirements.txt`
+
+2. Run sphinx-reload . in the root of the project
+
+    Then open up http://localhost:5500.
+
+    All change made to the .rst files in the source
+    folder will automatically reload the server.
+
+
+Formatting
+----------
+
+Look how the source/order.rst is formatted to see how you should format the page you are working on.
+
 Copyright
 ---------
 
