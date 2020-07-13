@@ -2,13 +2,12 @@
 
 .. raw:: html
    <style>
-   ol li .first {
-      margin-bottom: 0px !important;
-   }
-
-   ol li {
-      margin-top: 20px;
-   }
+      ol li .first {
+         margin-bottom: 0px !important;
+      }
+      ol li {
+         margin-top: 20px;
+      }
    </style>
 
 ######
@@ -282,9 +281,6 @@ Basic details
    Remember that even tho all the statuses are shown you can't always change the status to what you want there.
    Example if a order is payed for by a customer you can select the `Canceled` status to do that you will have to create a refund first.
    Same goes for setting a `Completed` states, the order will have to be payed for and shipped for you to be able to select this status.
-.. raw:: html
-   <---- #TODO: Link to order status part ----->
-
 
 3. **Actions**
 
@@ -298,6 +294,9 @@ Basic details
 
    Here you can navigate to other sections/details/actions for the specific order you are on.
    Please continue reading this documentation for more information.
+
+.. raw:: html
+   <---- #TODO: Link to order status part under point 2----->
 
 Payments
 --------
@@ -516,7 +515,7 @@ Creating a order shipment
 Order Payments
 ==============
 
-All payments can be viewed on :ref:`order detail payment`
+All payments can be viewed on :ref:`order detail payment`.
 
 Create Order Payment
 --------------------
