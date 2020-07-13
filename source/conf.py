@@ -11,10 +11,13 @@
 #
 # All configuration values have a default; values that are commented out
 # serve to show the default.
-
+from os import path
 import sphinx_shoop_theme
 
 from recommonmark.parser import CommonMarkParser
+
+SOURCE_DIR = path.dirname(path.abspath(__file__))
+STATIC_PATH = path.join(SOURCE_DIR, '_static')
 
 # -- General configuration ------------------------------------------------
 
@@ -129,12 +132,12 @@ html_short_title = "Shuup Guide"
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = 'logo.svg'
+html_logo = path.join(STATIC_PATH, 'logo.svg')
 
 # The name of an image file (relative to this directory) to use as a
 # favicon of the docs.  This file should be a Windows icon file (.ico)
 # being 16x16 or 32x32 pixels large.
-html_favicon = 'favicon.ico'
+html_favicon = path.join(STATIC_PATH, 'favicon.ico')
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

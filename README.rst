@@ -6,6 +6,33 @@ This is a guide for merchants on how to use Shuup.
 For more information about Shuup, see https://shuup.com/ and `Shuup
 at GitHub <https://github.com/shuup/shuup>`_.
 
+Set up
+------
+
+1. Install requirements by runing `pip install -r requirements.txt`
+
+2. Run sphinx-reload . in the root of the project
+
+    Then open up http://localhost:5500.
+
+    All change made to the .rst files in the source
+    folder will automatically reload the server.
+
+Commiting
+---------
+
+When you have updated or created a new documentation page. Commit it and push normaly but make the PR **from your branch to dev-updates**.
+
+Creating new pages
+------------------
+
+Create a new .rst file in the `source/` folder. Then add the name of the file to the `source/index.rst` file in the `toctree`.
+
+Formatting
+----------
+
+Look how the source/order.rst is formatted to see how you should format the page you are working on.
+
 Copyright
 ---------
 
