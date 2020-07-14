@@ -285,7 +285,7 @@ Basic details
 3. **Actions**
 
    Actions are only available on orders that aren't completed.
-   This is where you can change the address of the order. :ref:`order address change`.
+   This is where you can change the address of the order.
    Depending on if the order is payed for or not you will be able to create a refund or create a payment.
    Click on either the `Create payment` or `Create refund` and then follow the documentation from :ref:`order payment`.
 
@@ -297,6 +297,8 @@ Basic details
 
 .. raw:: html
    <---- #TODO: Link to order status part under point 2----->
+
+.. _order detail payment:
 
 Payments
 --------
