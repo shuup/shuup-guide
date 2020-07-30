@@ -11,10 +11,13 @@
 #
 # All configuration values have a default; values that are commented out
 # serve to show the default.
-
-import sphinx_shoop_theme
+from os import path
+import sphinx_shuup_theme
 
 from recommonmark.parser import CommonMarkParser
+
+SOURCE_DIR = path.dirname(path.abspath(__file__))
+STATIC_PATH = path.join(SOURCE_DIR, '_static')
 
 # -- General configuration ------------------------------------------------
 
@@ -47,7 +50,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Shuup Guide'
-copyright = '2019, Anders Innovations Inc, DBA Shuup'
+copyright = '2020, Anders Innovations Inc, DBA Shuup'
 author = 'Shuup'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -109,8 +112,8 @@ todo_include_todos = False
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'sphinx_shoop_theme'
-html_theme_path = [sphinx_shoop_theme.get_html_theme_path()]
+html_theme = 'sphinx_shuup_theme'
+html_theme_path = [sphinx_shuup_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -129,12 +132,12 @@ html_short_title = "Shuup Guide"
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = 'logo.svg'
+html_logo = path.join(STATIC_PATH, 'logo.svg')
 
 # The name of an image file (relative to this directory) to use as a
 # favicon of the docs.  This file should be a Windows icon file (.ico)
 # being 16x16 or 32x32 pixels large.
-html_favicon = 'favicon.ico'
+html_favicon = path.join(STATIC_PATH, 'favicon.ico')
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
