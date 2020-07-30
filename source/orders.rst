@@ -1,6 +1,4 @@
-.. _Orders:
-
-.. raw:: html
+. raw:: html
    <style>
       ol li .first {
          margin-bottom: 0px !important;
@@ -9,6 +7,8 @@
          margin-top: 20px;
       }
    </style>
+
+.. _orders:
 
 ######
 Orders
