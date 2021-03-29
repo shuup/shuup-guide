@@ -24,6 +24,7 @@ Contents:
    notifications
    campaigns
    carts
+   front
 
 ..   addons
    reports-and-analytics
